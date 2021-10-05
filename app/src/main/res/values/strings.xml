@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">AidPack</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="array_medical_facts">
+        <item>Laughing is good for the heart and can increase blood flow by 20 percent.</item>
+        <item>Your skin works hard. Not only is it the largest organ in the body, but it regulates your temperature and defends against disease and infection.</item>
+        <item>Always look on the bright side: being an optimist can help you live longer.</item>
+        <item>A lack of exercise now causes as many deaths as smoking.</item>
+        <item>39% of adults in the world are overweight.</item>
+        <item>Between 2000 and 2015, the average global life expectancy increased by five years.</item>
+        <item>Less than 1% of Americans ride their bike to work, while 50% of Copenhagen residents bike to work or school.</item>
+        <item>The US spends almost three times more on health care than any other country in the world, but ranks last in life expectancy among the 12 wealthiest industrialized countries.</item>
+        <item>Learning a new language or playing a musical instrument gives your brain a boost.</item>
+        <item>Feeling stressed? Read. Getting lost in a book can lower levels of cortisol, and other unhealthy stress hormones, by 68%.</item>
+        <item>Maintaining good relationships with your friends and family, reduces harmful levels of stress and boosts your immune system.</item>
+        <item>Drinking coffee can reduce the risk of depression, especially in women.</item>
+    </string-array>
+
+
+    <string-array name="list_of_first_aid_services">
+        <item>CPR</item>
+        <item>Burns</item>
+        <item>Bleeding</item>
+        <item>Choking</item>
+        <item>Sprains &amp; Strains</item>
+        <item>Asthma</item>
+        <item>Fractures</item>
+        <item>Recovery Position</item>
+        <item>Seizures</item>
+        <item>Wound Care</item>
+        <item>Poisons</item>
+        <item>Heart Conditions</item>
+        <item>Shock</item>
+        <item>Stroke</item>
+        <item>Allergic Reactions</item>
+        <item>Bites &amp; String</item>
+        <item>Diabetics</item>
+        <item>Drug Overdose</item>
+        <item>Eye Injury</item>
+        <item>Head Injury</item>
+        <item>Spinal Injury</item>
+    </string-array>
+
+    <string-array name="details_of_first_aid_services">
+        <!--CPR-->
+        <item>Step 1: \nCreate an airway by using the method of head-tilt, chin-lift while your one hand is on the forehead, place your finger on the lower jaw which is located near the chin of the patient. To make sure that the mouth would not be close tilt the head back and lift the jaw gently.</item>
+        <!--Burns-->
+        <item>Minor Burns\n
+            \nStep 1: \nFirst let the burned skin cool and placed it under a running water, dip it with cold water or used a cold pack for about 15 to 20 minutes to avoid any further damages and also to reduce the pain.\n
+            \nNote: Use a clean cloth to cover the ice before applying it to the burned skin.</item>
+        <!--Bleeding-->
+        <item>Step 1: \nMake the person as calm as possible or if you can, try to create a conversation so that he/she won’t panic.</item>
+        <!--Choking-->
+        <item>if the person CAN talk properly\n
+            \nStep 1:
+            \n-Reassure the victim &amp; and stay nearby to in any case of deterioration occurs.
+            \n-Encourage him/her to cough and breath.
+            \n-Do NOT use back blows or chest trust on victim who is able to breath.</item>
+        <!--Sprains-->
+        <item>Step 1: \nFor the injured area put some ice pack to it for about a day, once the swelling decreases the next thing to do is to apply heat packs or pads.\n
+        \nNOTE: \nRemember that immediate applying of heat pack from the injured will cause pain and increased swelling. Make sure to use some cover such us towels when you used ice and heat. </item>
+        <!--Asthma-->
+        <item>Step 1: \nFirst thing to do is used the prescribed inhaler by your doctor and take 2 to 4 puff every 30 minutes.</item>
+        <!--Fractures-->
+        <item>NOTE: \nif the victim cannot move do NOT change the person position and immediately call for emergency.\n
+        \nStep 1:\nIf there is an open wound, stop the bleeding by elevating it above from the heart and apply pressure to the wounded part with a clean cloth.</item>
+        <!--Recovery position-->
+        <item>With the victim on the ground\n
+        \nStep 1:\nKneel at the victims side.</item>
+        <!--Seizures-->
+        <item>Step 1: \nWhen you encounter a person having a seizure don’t panic. First lay the person down on a smooth surface to avoid any other injuries, then place a pillow or anything soft under the person head.</item>
+        <!--Wound-->
+        <item>Step 1: \nSanitize your hands with soap and water before treating the victims wound to avoid infections.</item>
+        <!--Poison-->
+        <item>Step 1: \nCheck for safety, if poisonous fumes are present in a current space move the victim into fresh air by dragging if necessary</item>
+        <!--Heart conditions-->
+        <item>Step 1: \nCall your local emergency number. Do not ignore the symptoms of a heart attack. If you can\'t get an ambulance or emergency vehicle to come to you, have a neighbor or a friend drive you to the nearest hospital. Drive yourself only if you have no other option. Because your condition can worsen, driving yourself puts you and others at risk.</item>
+        <!--Shock-->
+        <item>Step 1: \nTurn off the source of electricity, if possible. If not, move the source away from you and the person, using a dry, nonconducting object made of cardboard, plastic or wood.</item>
+        <!--Stroke-->
+        <item>NOTE: \nIn the event of a possible stroke, use F.A.S.T. to help remember warning signs.\n
+        \nFace: \nDoes the face droop on one side when the person tries to smile?</item>
+        <!--Allergic Reaction-->
+        <item>-Hypersensitive responses can be set off by food sources, meds, pets, creepy crawly stings, dust, and different things. Most hypersensitive responses aren\'t not kidding. Be that as it may, extreme responses can be hazardous and need quick clinical consideration.\n
+        \nStep 1: \nContact a doctor if the victim has an allergic reaction that is more than mild or concerns you.</item>
+        <!--Bites & sting-->
+        <item>Step 1: \nRemove the sting, tick or hairs if still in the skin. </item>
+        <!--Diabetics-->
+        <item>Step 1: \nSit them down and give them a sugary drink, or glucose sweets (not a diet drink).</item>
+        <!--Drug overdose-->
+        <item>NOTE: \nKnowing the amount of what medication was ingested can be incredibly useful during treatment. Be that as it may, this data isn\'t generally accessible. General treatment techniques that medical services suppliers might utilize include:\n
+        \n Step 1: \nClearing the aviation route or embeddings of a breathing cylinder when there is an issue with relaxing.</item>
+        <!--Eye injury-->
+        <item>Step 1: \nCold packs: Ice packs decrease enlarging and soothe torment.</item>
+        <!--Head injury-->
+        <item>Step 1: \nHold an ice pack (or a bag of frozen peas in a tea towel) to the injury regularly for short periods in the first few days to bring down any swelling</item>
+        <!--Spinal injury-->
+        <item>Step 1: \nFind support. \nCall local emergency hotline or any clinical assistance. </item>
+    </string-array>
+
+    <string-array name="details_of_first_aid_services_2">
+        <item>Step 2: \nCheck the patient breathing if it is normal, place your ear to the patient’s mouth then see if the chest has any movements while listening to the air flow and checking the breathing of the patient.</item>
+        <item>Step 2: \nOnce the burn has completely cooled, prevent your skin from dryness to do this you can apply a lotion or moisturizer to the burned skin.</item>
+        <item>Step 2: \nPut the injured or bleeding part of the body above from the heart. Apply pressure to the bleeding area remember that do not apply pressure to the bleeding part that has an object stuck as it may worsen the situation. </item>
+        <item>If the person CANNOT talk or unconscious\n
+            \nStep 1:\nGive 5 back blows, check the victim for improvement after each one.</item>
+        <item>Step 2: \nThis is ONLY for 16 years old and above, you may take pain reliever like aspirin or ibuprofen</item>
+        <item>Step 2: \nCall your doctor immediately if the medicine has no effect on you.</item>
+        <item>Step 2: \nIf the fracture is located to the neck or back don’t let them make any movements, if the fracture is in the legs or arms use a splint or sling so you will prevent it from moving.</item>
+        <item>Step 2: \nLay the right arm away to the body</item>
+        <item>Step 2: \nGive the person an open airway, to do that turn her face to the side so if the person vomits it can create an airway. Then don’t try to stop the person from moving.</item>
+        <item>Step 2: \nClean the wound with the running water and if the wound is still bleeding get a clean cloth and apply pressure to it. </item>
+        <item>Step 2: \nWipe the contaminated area using tissues or damp cloth \n
+        \n-For absorbed poisons e.g(pesticides, insecticides, chemicals) wash all affected areas of skin under running water.</item>
+        <item>Step 2: \nChew and swallow an aspirin while you wait for emergency help. Aspirin helps prevent blood clotting. If taken during a heart attack, it can reduce heart damage. </item>
+        <item>Step 2: \nBegin CPR if the person shows no signs of circulation, such as breathing, coughing or movement.</item>
+        <item>Arms: \nIs one arm lower when the person tries to raise both arms?</item>
+        <item>Step 2: \nIf the symptoms are mild, give an antihistamine by mouth such as diphenhydramine (such as Benadryl).</item>
+        <item>Step 2: \nWash the affected area with soap and water.</item>
+        <item>Step 2: \nIf they begin to feel better, give more drinks and some food, particularly biscuits or bread to sustain their blood sugar – a jam sandwich is great.</item>
+        <item>Step 2: \nGiving enacted charcoal, which acts in the intestinal system to assimilate the medication.</item>
+        <item>Step 2: \nEye flushing: Flush synthetic substances and different aggravations with clean water for around 15 minutes. </item>
+        <item>Step 2: \nRest and avoid stress – the victim do not need to stay awake if they\’re tired</item>
+        <item>Step 2: \nKeep the individual still. \nPlace towels or bed sheets on the two sides of the neck or hold the head and neck and make sure it stays straight.</item>
+    </string-array>
+
+    <string-array name="details_of_first_aid_services_3">
+        <item>Step 3: \nIf you notice that the patient has no breathing, proceed giving a CPR by pinching the nose and covering the patients mouth with yours and blow strong enough so that you can give an air to the patient and see the chest to rise. Repeat the blowing to give a total of two breaths to the patient.</item>
+        <item>Step 3: \nIf you can handle the pain cover the burn with a loosely wrapped sterile gauze bandage. But you can leave the burn if the pain is tolerable because minor burn is much faster to recover without a cover. </item>
+        <item>(If the bleeding was severe do the following steps.)\n
+        \nStep 1: \nGet a clean cloth and put it to bleeding area and closed it with a tape, or tie it so that you can control the bleeding.</item>
+        <item>Step 2: \nCheck for removable material on the throat.</item>
+        <item>To heal the injured muscle.\n
+            \nStep 3: \nApply iced pack for about twenty minutes with an interval time of 1 hour. This step is used to reduce the pain and swelling.</item>
+        <item>Step 3: \nKeep at rest position and consider drinking water to avoid dehydration.</item>
+        <item>Step 3: \nUse ice packs to the broken part for 10–15 minutes.</item>
+        <item>Step 3: \nPut the left arm across the chest.</item>
+        <item>Step 3: \nMake the person comfortable by loosening his/her clothing, ties, shirt collars and etc.</item>
+        <item>Step 3: \nAfter cleaning the wound apply some antibiotic/antibacterial cream then cover the wound with a sterilize gauze or clean cloth to avoid any further infections.</item>
+        <item>Step 3: \nKeep any information about the nature of poisoning incident.</item>
+        <item>Step 3: \nTake nitroglycerin if prescribed. If you think you are having a heart attack and your doctor has previously prescribed nitroglycerin, take it as directed while you wait for emergency medical help.</item>
+        <item>Step 3: \nTry to prevent the injured person from becoming chilled.</item>
+        <item>Speech: \nCan the person repeat a simple sentence? Is speech slurred or hard to understand?</item>
+        <item>Step 3: \nIf the symptoms are severe and you have injectable epinephrine (such as EpiPen), use it as directed right away and call for emergency medical help.</item>
+        <item>Step 3: \nApply a cold compress (such as a flannel or cloth cooled with cold water) or an ice pack to any swelling for at least 10 minutes.</item>
+        <item>Step 3: \nIn case they don\’t feel better within 10 minutes or they begin to get worse call the emergency services.</item>
+        <item>Step 3: \nSiphoning the stomach to eliminate the substance from the stomach.</item>
+        <item>Step 3: \nEyedrops: Your supplier might recommend eyedrops to assist your eye with recovering.</item>
+        <item>Step 3: \nTake paracetamol or ibuprofen to relieve pain or a headache – do not use aspirin as it could cause the injury to bleed</item>
+        <item>Step 3: \nTry not to move the head or neck: \n
+            \nGive however much medical aid as could reasonably be expected without moving the individual\'s head or neck.\n
+            \nif the victim gives no indications of (breathing, moving or development), start CPR\n
+            \nNOTE: Make sure the head is still straight.\n
+            \nUtilize your fingers to delicately get a handle on the jaw and lift it forward. In the event that the individual has no heartbeat, start chest compressions.</item>
+    </string-array>
+
+    <string-array name="details_of_first_aid_services_4">
+        <item>Step 4: \nNow, proceed to the chest compression wherein you will put the heel of your hand to the middle chest of the patient, while your other hand is on the top of your hand which place on the middle chest of the patient then lace your fingers together then do a thirty compression in about 1 or 2 inches.</item>
+        <item>Step 4: \nYou can take pain relievers such us aspirin, ibuprofen, naproxen and acetaminophen if necessary to reduce the pain.</item>
+        <item>Step 2: \Remember that put the wounded part as high as possible from the heart to avoid more bleeding.</item>
+        <item>Step 3: \nCall emergency and begin CPR until medical experts arrived.</item>
+        <item>Step 4: \nWhen you apply iced pack make sure that there is compression but not too tightly.</item>
+        <item>Step 4: \nIf there is no improvement, immediately call for emergency.</item>
+        <item>Step 4: \nLet the victim have a comfortable position and let the victim rest and warm.</item>
+        <item>Step 4: \nRaise the left knee then lay foot flat on the ground.</item>
+        <item>Step 4: \nLastly don’t frighten the person once he/she regained consciousness.</item>
+        <item>Step 4: \nKeep the wounded area clean and frequently change the gauze/cover until the wound healed.</item>
+        <item> </item>
+        <item>Step 4: \nInitiate CPR when the person is unconscious. If the person is not breathing or cannot find a pulse, begin CPR to help maintain blood flow after calling an ambulance.</item>
+        <item>Step 4: \nApply a bandage. Cover any burned areas with a sterile gauze bandage, if available, or a clean cloth. Don\'t use a blanket or towel, because loose fibers can stick to the burns</item>
+        <item>Time: \nDuring a stroke every minute counts. If you observe any of these signs, call your local emergency number immediately.</item>
+        <item> </item>
+        <item>Step 4: \nRaise or elevate the affected area, if possible, as this can help reduce swelling.</item>
+        <item>Step 4: \nIf they lose consciousness but are breathing, put into the recovery position and phone the emergency services.</item>
+        <item>Step 4: \nGiving intravenous liquids to assist speed with increasing the body\'s expulsion of the substance.</item>
+        <item>Step 4: \nEye fix: By covering your eye, you\'ll permit it to rest while it\'s repairing.</item>
+        <item>Step 4: \nMake sure someone stays with the victim for at least the first 24 hours – call someone if there\'s nobody who can stay with you at the moment.</item>
+        <item>Step 4: \nTry not to roll alone. \nIn the event that you should move the victim, you need another individual to do it. With one of you at the head and one more at the edge of the harmed individual, cooperate to keep the individual\'s head, neck and back adjusted while moving the individual onto one side.</item>
+    </string-array>
+
+    <string-array name="details_of_first_aid_services_5">
+        <item>Step 5: \nAfter a total of (30) chest compressions repeat the (2) rescue breathing you did earlier. But you will not check the breathing. Make sure that before giving another breathing the chest should be rise and falls.</item>
+        <item>Step 5: \nIf the burned skin has fluid-filled blisters get a sterilized small scissors and cut it with a tiny hole. For broken blisters you may wash it but you need to do it carefully with a soap that has antibacterial and warm water, apply antibiotic ointment, and rebandage it.</item>
+        <item>NOTE: \nIf the wounded part of your body is fractured don’t try to elevate it from the heart because any movement from the fractured area can cause further injury.</item>
+        <item> </item>
+        <item>Step 5: \nWhile you are sitting elevate the injured part or area.</item>
+        <item> </item>
+        <item>Step 5: \nCall an ambulance and continue assist the victim until emergency arrives.</item>
+        <item>Step 5: \nPut your hands under the victim shoulder and thigh.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Step 5: \nPress hard and fast on the center of the person\'s chest at a fairly rapid rate, about 100 to 120 compressions per minute.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Step 5: \nAvoid scratching the area or bursting any blisters, to reduce the risk of infection – if the victim is a child, it may help to keep their fingernails short and clean.</item>
+        <item>Step 5: \nIf they stop breathing, prepare to give CPR.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+
+    </string-array>
+
+    <string-array name="details_of_first_aid_services_6">
+        <item>Step 6: \nDo the 30 compressions with two breathing for about 2 minutes then check for the persons response, if still no sign of breathing continue the chest compression and breathing.\n\nNOTE: If the patient still not responding for approximately 5–10 minutes call for immediate help.</item>
+        <item>Severe Burn\n
+            \n**Important**\nif the burns were severe. Do not touch anything from the burned area instead call for medical attention and calmly state the patient’s situation then wait for the medical expert instruction to assist the patient.</item>
+        <item> </item>
+        <item> </item>
+        <item>To remember this steps easily this procedure is called R.I.C.E short for Rest, Ice, Compress, Elevation</item>
+        <item> </item>
+        <item> </item>
+        <item>Step 6: \nRoll the victim gently to their side.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Step 6: \nHave the person sit down, rest, and try to keep calm. Loosen any tight clothing. Ask if the person takes any chest pain medicine, such as nitroglycerin for a known heart condition, and help them take it.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item>Step 6: \nAvoid traditional home remedies, such as vinegar and bicarbonate of soda, as they\'re unlikely to help.</item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+        <item> </item>
+    </string-array>
+
+
+    <string-array name="links_of_first_aid_services">
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+        <item>SvTr9QA5NvA</item>
+    </string-array>
+</resources>
