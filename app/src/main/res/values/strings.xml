@@ -2,7 +2,8 @@
     <string name="app_name">AidPack</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
     <string-array name="array_medical_facts">
         <item>Laughing is good for the heart and can increase blood flow by 20 percent.</item>
         <item>Your skin works hard. Not only is it the largest organ in the body, but it regulates your temperature and defends against disease and infection.</item>
@@ -16,6 +17,44 @@
         <item>Feeling stressed? Read. Getting lost in a book can lower levels of cortisol, and other unhealthy stress hormones, by 68%.</item>
         <item>Maintaining good relationships with your friends and family, reduces harmful levels of stress and boosts your immune system.</item>
         <item>Drinking coffee can reduce the risk of depression, especially in women.</item>
+        <item>Exercise give energy even if you are tired</item>
+        <item>100 times laughing is equivalent of exercising in a stationary bike.</item>
+        <item>11 minutes of smoking can reduce your life span.</item>
+        <item>When we touch something we send messages to our brain at 200km/h</item>
+        <item>There are lots of bacteria on our mouth than to the population of the world</item>
+        <item>MYTH: \nWhen you go straight to bed with wet hair your eyes might be blinded</item>
+        <item>MYTH: \nWhen a frog urine in your skin it could cause warts.</item>
+        <item>MYTH: \nUsing a thread and getting it wet with saliva can get rid a hiccup.</item>
+        <item>MYTH: \nWomen can get pregnant with the help of <i>hilot</i>i>.</item>
+        <item>MYTH: \nFilipino believe that eating gecko can cure asthma.</item>
+        <item>MYTH: \nYou can have a great singing voice when you eat an ant.</item>
+        <item>MYTH: \nUsog to children can cause fever, convulsions and etc.</item>
+        <item>MYTH: \nBabies can fell ill when exposed outside at night or also known as “nahamugan”.</item>
+        <item>MYTH: \nAsthma can be avoided by putting a towel at the back to absorb sweat.</item>
+        <item>MYTH: \nToo much sugar can cause ADHD or hyperactivity for children.</item>
+        <item>MYTH: \nChildren can have an autism because of vaccines</item>
+        <item>MYTH: \nCovering one’s first menstrual blood on the face will prevent the onset of acne.</item>
+        <item>MYTH: \nMental disorder can get from bathing while having a monthly period.</item>
+        <item>MYTH: \nRelieving heartburn or stomach-ache by drinking coffee in the morning.</item>
+        <item>MYTH: \nBlue dye to relieve mumps or also known to filipinos as "Tina"</item>
+        <item>MYTH: \nAppendicitis can get by swallowing seeds or doing heavy work after eating.</item>
+        <item>MYTH: \nRelieving sore eyes through breast milk.</item>
+        <item>MYTH: \nWhen a person fainted slap them or bite their finger.</item>
+        <item>MYTH: \nWhen a newborn baby pinches their nose, they can have a pointed nose.</item>
+        <item>MYTH: \nThe food is still clean when it is retrieved in the floor within 5 seconds.</item>
+        <item>MYTH: \nSucking the blood from the pricked/wounded finger so it can re-enter to your body.</item>
+        <item>MYTH: \nJumping in new year so that you be taller.</item>
+        <item>MYTH: \nGetting sick from taking a bath after intensive exercise.</item>
+        <item>MYTH: \nCombing your hair at night can cause hair fall.</item>
+        <item>MYTH: \nStye (kuliti) on your eyes is cause by peeking on someone who is taking a bath or dressing.</item>
+        <item>MYTH: \nPneumonia is caused by letting sweat dried on your back.</item>
+        <item>MYTH: \nThe tuob (boiling) ritual involves the sick person wrapped in a blanket or cloth, sitting over a jar heated by coal, or hovering above a steaming pot. The healer rubs essential oils over the heated patient and chants a healing mantra.</item>
+        <item>MYTH: \nSuck on a snake bite to get the venom out</item>
+        <item>MYTH: \nTilt your head back when your nose is bleeding</item>
+        <item>MYTH: \nApplying butter or toothpaste on burns</item>
+        <item>MYTH: \nRubbing Alcohol Brings Down A Fever</item>
+        <item>MYTH: \nLeaving An Adhesive Bandage On A Cut Speeds Healing</item>
+        <item>MYTH: \nCoffee Grounds Stop Bleeding</item>
     </string-array>
 
 
@@ -232,18 +271,18 @@
 
 
     <string-array name="links_of_first_aid_services">
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
+        <item>-NodDRTsV88</item>
+        <item>XGnLkUty69g</item>
+        <item>NxO5LvgqZe0</item>
+        <item>PA9hpOnvtCk</item>
+        <item>0jps5SZlTdo</item>
+        <item>hdVKpUR513M</item>
+        <item>2v8vlXgGXwE</item>
+        <item>GmqXqwSV3bo</item>
+        <item>Ovsw7tdneqE</item>
+        <item>4e7evinsfm0</item>
+        <item>b2ieb8BZJuY</item>
+        <item>suNiaxLEr2Y</item>
         <item>SvTr9QA5NvA</item>
         <item>SvTr9QA5NvA</item>
         <item>SvTr9QA5NvA</item>

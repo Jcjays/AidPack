@@ -347,7 +347,7 @@
             android:paddingTop="15dp"
             android:paddingBottom="20dp"
             android:text="Emergency \nHotlines"
-            android:fontFamily="@font/convergence"
+            android:fontFamily="@font/bubbler_one"
             android:textColor="@color/secondary"
             android:textSize="35sp"
             android:textStyle="bold" />

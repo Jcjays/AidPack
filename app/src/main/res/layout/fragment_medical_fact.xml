@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".MedicalFactFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -15,7 +16,7 @@
         android:layout_marginStart="176dp"
         android:layout_marginTop="48dp"
         android:layout_marginEnd="177dp"
-        android:fontFamily="@font/andika"
+        android:fontFamily="@font/bubbler_one"
         android:gravity="center"
         android:text="Medical Facts"
         android:textColor="@color/secondary"
@@ -25,11 +26,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
+    <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/imageView2"
-        android:layout_width="354dp"
-        android:layout_height="449dp"
-        android:src="@drawable/ic_note"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:lottie_rawRes="@raw/blob_background_medical_facts"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
         app:layout_constraintBottom_toTopOf="@+id/btn_next_medical_facts"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -54,11 +57,12 @@
         android:id="@+id/medical_facts_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="60dp"
-        android:fontFamily="@font/andika"
+        android:fontFamily="@font/bubbler_one"
         android:gravity="center"
+        android:padding="60dp"
         android:text="content"
-        android:textColor="@color/secondary"
+        android:textStyle="bold"
+        android:textColor="@color/white"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView2"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"

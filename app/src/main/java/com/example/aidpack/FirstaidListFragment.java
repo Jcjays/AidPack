@@ -28,12 +28,12 @@ public class FirstaidListFragment extends Fragment {
     String[] _first_aid_description_step_5;
     String[] _first_aid_description_step_6;
 
-    int[] _images_of_first_aid_services_title = {R.drawable.ic_physical_therapy, R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample,
-                    R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample,
-                    R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample,
-                    R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample,
-                    R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample, R.drawable.icon_sample,
-                    R.drawable.icon_sample, R.drawable.icon_sample,};
+    int[] _images_of_first_aid_services_title = {R.drawable.cpr, R.drawable.burn, R.drawable.blood, R.drawable.choking,
+                    R.drawable.sprain, R.drawable.asthma, R.drawable.broken_bone, R.drawable.recovery,
+                    R.drawable.lie_down, R.drawable.wound_care, R.drawable.poison, R.drawable.heart_attack,
+                    R.drawable.shocked, R.drawable.stroke, R.drawable.allergy, R.drawable.icon_sample,
+                    R.drawable.sweets, R.drawable.overdose, R.drawable.eye, R.drawable.head,
+                    R.drawable.chiropractic};
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {

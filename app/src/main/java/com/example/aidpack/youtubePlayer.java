@@ -13,6 +13,12 @@ public class youtubePlayer extends AppCompatActivity {
     YouTubePlayerView _youtubePlayerView;
 
     @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_youtube_player);
@@ -26,5 +32,6 @@ public class youtubePlayer extends AppCompatActivity {
                 youTubePlayer.loadVideo(getIntent().getStringExtra("linkToPlay"), 0);
             }
         });
+
     }
 }

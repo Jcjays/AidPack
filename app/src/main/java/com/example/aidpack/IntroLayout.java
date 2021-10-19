@@ -18,7 +18,9 @@ public class IntroLayout extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent(IntroLayout.this, MainActivity.class);
                 startActivity(intent);
+                //overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 finish();
+
             }
         },3000);
     }

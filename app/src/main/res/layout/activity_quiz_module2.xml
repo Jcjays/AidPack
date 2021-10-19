@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizModule">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="60dp"
+        app:lottie_rawRes="@raw/blob_background_medical_quiz"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animCorrect"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        app:lottie_rawRes="@raw/animation_correct"
+        android:layout_centerHorizontal="true"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animWrong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        app:lottie_rawRes="@raw/animation_wrong"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:id="@+id/TVquizQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAnswerNumberOne"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="160dp"
+        android:text="Question"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/secondary"
+        android:fontFamily="@font/bubbler_one"
+        />
+
+
+    <TextView
+        android:id="@+id/TVquizTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:fontFamily="@font/bubbler_one"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_alignParentEnd="true"
+        android:padding="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score:"
+        android:fontFamily="@font/bubbler_one"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentEnd="true"
+        android:padding="30dp"/>
+
+
+    <TextView
+        android:id="@+id/TVquizQuestionCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 out of 15"
+        android:fontFamily="@font/bubbler_one"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentStart="true"
+        android:padding="30dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/btnAnswerNumberFour"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:text="Answer 4"
+        android:fontFamily="@font/bubbler_one"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="70dp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/btnAnswerNumberThree"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:text="Answer 3"
+        android:fontFamily="@font/bubbler_one"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnAnswerNumberFour"
+        />
+
+    <Button
+        android:id="@+id/btnAnswerNumberTwo"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:text="Answer 2"
+        android:fontFamily="@font/bubbler_one"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnAnswerNumberThree"
+        />
+
+    <Button
+        android:id="@+id/btnAnswerNumberOne"
+        android:layout_height="70dp"
+        android:layout_width="250dp"
+        android:text="Answer 1"
+        android:fontFamily="@font/bubbler_one"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btnAnswerNumberTwo"
+        />
+
+    <Button
+        android:id="@+id/btnQuizExit"
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        android:background="@drawable/ic_baseline_arrow_back_24"
+        android:fontFamily="@font/bubbler_one"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="20sp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_height="30dp"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/andika"
+        android:text="Exit"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="23dp"
+        android:layout_marginStart="50sp"
+        android:textColor="@color/red"
+        android:layout_alignParentBottom="true"
+        />
+
+
+
+
+
+</RelativeLayout>

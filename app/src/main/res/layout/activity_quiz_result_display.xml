@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizResultDisplay">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:lottie_rawRes="@raw/quiz_completed_anim"
+        app:lottie_autoPlay="true"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:lottie_rawRes="@raw/quiz_comfetti_anim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="150dp"/>
+
+
+    <TextView
+        android:id="@+id/yourScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score is"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/andika"
+        android:textColor="@color/secondary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"/>
+
+    <TextView
+        android:id="@+id/TVquizNumberOfCorrectAns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15 out of 15"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bubbler_one"
+        android:textColor="@color/red"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/yourScoreLabel"/>
+
+    <TextView
+        android:id="@+id/TVquizResultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfect!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/andika"
+        android:textColor="@color/green"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/yourScoreLabel"/>
+
+    <Button
+        android:id="@+id/btnResultQuizExit"
+        android:layout_below="@+id/TVquizResultLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:text="Exit"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>
