@@ -52,6 +52,7 @@ public class MedicalFacilitiesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_medical_facilities, container, false);
+
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(requireContext());
 
         Button _btnGraceMemorial = view.findViewById(R.id.btn_Direction_Grace_Memorial);

@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HotlineFragment"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HotlineFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
@@ -56,6 +56,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="#00000000" />
+
             </RelativeLayout>
 
             <RelativeLayout
@@ -351,6 +352,14 @@
             android:textColor="@color/secondary"
             android:textSize="35sp"
             android:textStyle="bold" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            app:lottie_rawRes="@raw/hotline_anim"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
     </RelativeLayout>
     <TextView
         android:layout_width="wrap_content"
@@ -358,6 +367,6 @@
         android:text="Note: Tap to call"
         android:textStyle="italic"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="100dp"/>
+        android:layout_marginTop="115dp"/>
 
 </RelativeLayout>

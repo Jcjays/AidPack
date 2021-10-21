@@ -8,16 +8,17 @@ import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
-import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 
-import java.util.Locale;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Random;
+import java.util.Set;
 
 public class QuizModule extends AppCompatActivity {
     TextView _questions;
@@ -28,11 +29,17 @@ public class QuizModule extends AppCompatActivity {
     LottieAnimationView wrongAnim;
     Button btnExit;
 
+    int randomizer;
+    int[] verify;
+    int index;
+
     private String answer;
     private int score, counter;
-    private int currentQuestion = 0;
-    private boolean validationAnim = false;
-    private QuizObjects quizObjects = new QuizObjects();
+
+    //private int currentQuestion = 0;
+
+    private final QuizObjects quizObjects = new QuizObjects();
+    int currentQuestion;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,7 +57,11 @@ public class QuizModule extends AppCompatActivity {
         correctAnim = findViewById(R.id.animCorrect);
         wrongAnim = findViewById(R.id.animWrong);
 
+        //important methods
+        RandomizeQuestion();
         updateQuestion();
+
+
         //Start of buttons
         _choiceA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -151,7 +162,7 @@ public class QuizModule extends AppCompatActivity {
                             .setPositiveButton(R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         Toast.makeText(QuizModule.this, "Exiting..", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(QuizModule.this, getParent().getClass());
+                        Intent intent = new Intent(QuizModule.this, MainActivity.class);
                         startActivity(intent);
                     }
                 })
@@ -217,6 +228,8 @@ public class QuizModule extends AppCompatActivity {
         });
         //end of animListeners
 
+
+
     }
 
 
@@ -229,40 +242,57 @@ public class QuizModule extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     private void updateQuestion(){
         if(counter < quizObjects.getQuestionLength()){
+
+            //create a random algorithm without duplicates.(done)
+            currentQuestion = verify[randomizer];
             _questions.setText(quizObjects.getQuestion(currentQuestion));
-            _choiceA.setText(quizObjects.getChoice1(currentQuestion));
-            _choiceB.setText(quizObjects.getChoice2(currentQuestion));
-            _choiceC.setText(quizObjects.getChoice3(currentQuestion));
-            _choiceD.setText(quizObjects.getChoice4(currentQuestion));
+
+            if(quizObjects.getChoicesLength(currentQuestion)){
+                _choiceA.setText(quizObjects.getChoice1(currentQuestion));
+                _choiceB.setText(quizObjects.getChoice2(currentQuestion));
+                _choiceC.setVisibility(View.INVISIBLE);
+                _choiceD.setVisibility(View.INVISIBLE);
+            }else{
+                _choiceA.setText(quizObjects.getChoice1(currentQuestion));
+                _choiceB.setText(quizObjects.getChoice2(currentQuestion));
+                _choiceC.setText(quizObjects.getChoice3(currentQuestion));
+                _choiceD.setText(quizObjects.getChoice4(currentQuestion));
+                _choiceC.setVisibility(View.VISIBLE);
+                _choiceD.setVisibility(View.VISIBLE);
+            }
             answer = quizObjects.getCorrectAnswer(currentQuestion);
             _questionCounter.setText(counter + 1 + " out of " + quizObjects.getQuestionLength());
-            currentQuestion++;
+            randomizer++;
 
         }else{
             Toast.makeText(getBaseContext(), "Play lottie animation", Toast.LENGTH_SHORT).show();
             if(score == quizObjects.getQuestionLength()){
                 //Perfect Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Perfect", score);
+                intent.putExtra("Perfect!, well done!", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
 
+
                 Toast.makeText(getBaseContext(), "Perfect!", Toast.LENGTH_SHORT).show();
+                finish();
             }else if(score <= 14 && score >= 10){
                 //Good Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Intermediate", score);
+                intent.putExtra("Good job! keep it up!", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
 
                 Toast.makeText(getBaseContext(), "Intermediate!", Toast.LENGTH_SHORT).show();
+                finish();
             }else{
                 //Bad Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Poor", score);
+                intent.putExtra("Better luck next time!", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
                 Toast.makeText(getBaseContext(), "Study again", Toast.LENGTH_SHORT).show();
+                finish();
             }
         }
     }
@@ -270,4 +300,20 @@ public class QuizModule extends AppCompatActivity {
         score = points;
        _time.setText(String.valueOf(score));
     }
+
+    private void RandomizeQuestion(){
+        Random r = new Random();
+        verify = new int[quizObjects.getQuestionLength()];
+
+        Set<Integer> uniqueNumbers = new LinkedHashSet<>();
+        while (uniqueNumbers.size() < quizObjects.getQuestionLength()){
+            uniqueNumbers.add(r.nextInt(quizObjects.getQuestionLength()));
+        }
+        for(int i : uniqueNumbers){
+            verify[index] = i;
+            index++;
+            System.out.println(i);
+        }
+    }
+
 }

@@ -3,19 +3,47 @@ package com.example.aidpack;
 public class QuizObjects {
 
     private final String[] mQuestions = {
-            "What is android?",
-            "How many sizes are supported by android?",
-            "How many threads are there in asyncTask in android?"
+            "What is RICE stands for in sprain injury?",
+            "In case of burns how many minutes do use ice pack?",
+            "When a person is experiencing choking what steps you should avoid when the victims can talk?",
+            "What is the 1st step for implementing first-aid on victim experiencing bleeding?",
+            "What can you used for asthma?",
+            "Suck a snake bite to get the venom out.",
+            "The cause of anemia is letting sweat dried on your back.",
+            "A lack of exercise can cause as many deaths as smoking.",
+            "Playing musical instruments can boost your brain.",
+            "Peeking on someone who is taking a bath or dressing can cause a stye(kuliti).",
+            "On what age you can allow the victim to take pain reliever like aspirin or ibuprofen?",
+            "It helps to decrease the enlarging and soothe torment?",
+            "How many minutes do smoking can reduce your lifespan?",
+            "Women will have a higher chance of getting pregnant with the help of HILOT.",
+            "In recovery position what specific step states that \"Kneel at the victim side.\"?"
+
+
     };
 
     private final String[][] mChoices ={
-            {"Android is a stack", "Google mobile device name", "Virtual machine", "None of the above"},
-            {"Android supported all size", "Android does not support all size", "Android supports small,normal, large and extra-large sizes", "Size in unidentified"},
-            {"Only one", "Two", "AsyncTask doesn't have a thread", "None of the above"},
+            {"Roll, Inhale, Care, Evaluate", "Rest, Ice,  Compress, Elevate", "Rest, Inhale, Care, Elevate", "Roll, Ice, Compress, Evaluate"},
+            {"5 to 10 minutes", "10 to 15 minutes", "15 to 18 minutes", "15 to 20 minutes"},
+            {"Encourage the person to cough", "Reassure the person", "Do not use back blows", "Use back blows"},
+            {"Stop the person from panicking and try to create a conversation", "Use any cloth and apply pressure to the bleeding area", "Raise the bleeding part of the are from the heart", "Call an emergency"},
+            {"Aspirin", "Biogesic", "Prescribed Inhaler", "None of the Above"},
+            {"Myth", "Fact", "", ""},
+            {"Myth", "Fact", "", ""},
+            {"Myth", "Fact", "", ""},
+            {"Myth", "Fact", "", ""},
+            {"Myth", "Fact", "", ""},
+            {"18 years old and above", "22 years old and above", "16 years old and above", "None of the Above"},
+            {"Ice packs", "Toothpaste", "Aspirin", "Antibiotic"},
+            {"13", "11", "9", "17"},
+            {"Myth", "Fact", "", ""},
+            {"STEP 1", "STEP 2", "STEP 3", "STEP 4"}
+
     };
 
-    private final String[] mAnswerKey = {"Android is a stack", "Android does not support all size", "None of the above"};
-
+    private final String[] mAnswerKey = {"Rest, Ice,  Compress, Elevate", "15 to 20 minutes",
+            "Do not use back blows","Stop the person from panicking and try to create a conversation",
+            "Prescribed Inhaler", "Myth", "Myth", "Fact", "Fact", "Myth", "16 years old and above","Ice packs","11","Myth","STEP 1"};
 
 
     public String getQuestion(int a){
@@ -41,8 +69,18 @@ public class QuizObjects {
     public String getCorrectAnswer(int a){
         return mAnswerKey [a];
     }
+
     public  int getQuestionLength(){
         return mQuestions.length;
     }
+
+    public boolean getChoicesLength(int a){
+        boolean verify = false;
+        if (mChoices[a][2].equals("") && mChoices[a][3].equals("")){
+         verify = true;
+        }
+        return verify;
+    }
+
 
 }

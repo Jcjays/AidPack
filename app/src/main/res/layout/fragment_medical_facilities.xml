@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MedicalFacilitiesFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -26,7 +27,7 @@
                 android:layout_height="110dp"
                 android:layout_margin="15dp"
                 android:background="@drawable/round_bk5"
-                android:backgroundTint="@color/yellow"
+                android:backgroundTint="#C1CFC0"
                 >
 
                 <TextView
@@ -796,14 +797,6 @@
         android:layout_height="120dp"
         android:id="@+id/hotline_header">
 
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_menu"
-            android:padding="5dp"
-            android:backgroundTint="@color/secondary"
-            android:layout_alignParentRight="true"
-            android:layout_margin="18dp"/>
 
         <TextView
             android:id="@+id/get_directions"
@@ -819,6 +812,13 @@
             android:textSize="35sp"
             android:textStyle="bold" />
 
-
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            app:lottie_rawRes="@raw/location_pin_map"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
     </RelativeLayout>
+
 </RelativeLayout>
