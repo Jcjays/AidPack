@@ -16,7 +16,7 @@ public class IntroLayout extends AppCompatActivity {
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(IntroLayout.this, MainActivity.class);
+                Intent intent = new Intent(IntroLayout.this, GetStarted.class);
                 startActivity(intent);
                 //overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
                 finish();

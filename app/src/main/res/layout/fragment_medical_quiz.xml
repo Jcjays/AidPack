@@ -4,42 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/medicalQuiz"
+
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MedicalQuizFragment">
 
 
         <Button
             android:id="@+id/btnPlayQuiz"
-            android:text="▶ Play"
-            android:fontFamily="@font/bubbler_one"
-            android:textSize="25sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"
-            android:textColor="@color/white"
-            android:layout_width="250dp"
-            android:layout_height="70dp"
-            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            />
-
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="match_parent"
-            android:layout_height="700dp"
-            app:lottie_rawRes="@raw/quiz_background"
-            android:layout_centerInParent="true"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            />
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="28dp"
+            android:backgroundTint="@color/light_blue"
+            android:text="Play"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Quiz"
-            android:fontFamily="@font/bubbler_one"
-            android:textSize="40sp"
+            android:fontFamily="@font/candal"
+            android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="@color/secondary"
+            android:textColor="@color/black"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="48dp"/>
@@ -47,20 +36,38 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:padding="90dp"
             android:rotation="-5"
-            android:layout_centerInParent="true"
-            android:src="@drawable/task_icon_quiz"/>
+            android:src="@drawable/task_icon_quiz" />
 
         <TextView
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:text="Test your knowledge!"
-            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textStyle="normal"
             android:textSize="25sp"
-            android:fontFamily="@font/bubbler_one"
+            android:fontFamily="@font/convergence"
             android:layout_marginTop="190dp"/>
+
+        <TextView
+            android:id="@+id/highscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="121dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="114dp"
+            android:fontFamily="@font/andika"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="Previous score:\n 0 out of 15"
+            android:textColor="@color/light_blue" />
 
 
 </RelativeLayout>

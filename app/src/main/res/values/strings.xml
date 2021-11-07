@@ -268,8 +268,7 @@
         <item> </item>
         <item> </item>
     </string-array>
-
-
+    
     <string-array name="links_of_first_aid_services">
         <item>-NodDRTsV88</item>
         <item>XGnLkUty69g</item>
@@ -292,5 +291,30 @@
         <item>SvTr9QA5NvA</item>
         <item>SvTr9QA5NvA</item>
         <item>SvTr9QA5NvA</item>
+    </string-array>
+
+
+    <string-array name="medical_reminders">
+        <item>Eat a healthy diet</item>
+        <item>Consume less salt and sugar</item>
+        <item>Reduce intake of harmful fats</item>
+        <item>Avoid harmful use of alcohol</item>
+        <item>Do not smoke</item>
+        <item>Be active</item>
+        <item>Check your blood pressure regularly</item>
+        <item>Cover your mouth when coughing or sneezing</item>
+        <item>Talk to someone you trust if you are feeling down</item>
+        <item>Take antibiotics only as prescribed</item>
+        <item>Clean your hands properly</item>
+        <item>Have regular check-ups</item>
+        <item>Keep your body hydrated with water.</item>
+        <item>Avoid toxins and unhealthy environments.</item>
+        <item>Get adequate sleep.</item>
+        <item>Learn to relax more.</item>
+        <item>Focus less on your weight, and more on your overall health.</item>
+        <item>Find things to be grateful for in your life.</item>
+        <item>Eat a variety of foods, especially fruits and vegetables.</item>
+        <item>Do not forget your dental health.</item>
+        <item>Consider taking vitamins and other supplements.</item>
     </string-array>
 </resources>

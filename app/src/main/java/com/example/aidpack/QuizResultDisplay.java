@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.view.View;
@@ -15,8 +16,8 @@ public class QuizResultDisplay extends AppCompatActivity {
 
     TextView numberOfCorrectAns;
     TextView resultLabel;
+    final String NEW_SCORE_EXTRA = "NEW_SCORE";
     Button exit;
-    TextView setHighScore;
     int highScore;
 
     @SuppressLint("SetTextI18n")
@@ -46,6 +47,7 @@ public class QuizResultDisplay extends AppCompatActivity {
             resultLabel.setText("Intermediate");
             resultLabel.setTextColor(getResources().getColor(R.color.yellow));
             highScore = intermediateScore;
+
         }
 
         if(getIntent().hasExtra("Poor")){
@@ -53,7 +55,9 @@ public class QuizResultDisplay extends AppCompatActivity {
             resultLabel.setText("Better luck next time.");
             resultLabel.setTextColor(getResources().getColor(R.color.red));
             highScore = poorScore;
+
         }
+
 
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,8 +67,15 @@ public class QuizResultDisplay extends AppCompatActivity {
                 finish();
             }
         });
+    }
 
-
+    @Override
+    protected void onPause() {
+        super.onPause();
+        SharedPreferences sharedPreferences = getSharedPreferences(NEW_SCORE_EXTRA, MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("Score", highScore);
+        editor.apply();
     }
 
 }

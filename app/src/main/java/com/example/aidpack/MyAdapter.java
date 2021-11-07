@@ -25,8 +25,18 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private String[] _description_5;
     private String[] _description_6;
 
+    private int[] _header_image;
+    private int[] _step1_image;
+    private int[] _step2_image;
+    private int[] _step3_image;
+    private int[] _step4_image;
+    private int[] _step5_image;
+    private int[] _step6_image;
 
-    public MyAdapter(Context ct, String[] Title, int[] images, String[] description, String[] description_2, String[] description_3, String[] description_4, String[] description_5, String[] description_6, String[] links){
+
+    public MyAdapter(Context ct, String[] Title, int[] images,
+                     String[] description, String[] description_2, String[] description_3, String[] description_4, String[] description_5, String[] description_6, String[] links,
+                     int[] header, int[] step_1_image, int[] step_2_image, int[] step_3_image, int[] step_4_image, int[] step_5_image, int[] step_6_image){
         this._title = Title;
         this._img = images;
         this._context = ct;
@@ -38,8 +48,15 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         this._description_4 = description_4;
         this._description_5 = description_5;
         this._description_6 = description_6;
-    }
 
+        this._header_image = header;
+        this._step1_image = step_1_image;
+        this._step2_image = step_2_image;
+        this._step3_image = step_3_image;
+        this._step4_image = step_4_image;
+        this._step5_image = step_5_image;
+        this._step6_image = step_6_image;
+    }
 
     @NonNull
     @Override
@@ -65,6 +82,14 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
                 intent.putExtra("description_4", _description_4[position]);
                 intent.putExtra("description_5", _description_5[position]);
                 intent.putExtra("description_6", _description_6[position]);
+
+                intent.putExtra("header_image", _header_image[position]);
+                intent.putExtra("step_1_image", _step1_image[position]);
+                intent.putExtra("step_2_image", _step2_image[position]);
+                intent.putExtra("step_3_image", _step3_image[position]);
+                intent.putExtra("step_4_image", _step4_image[position]);
+                intent.putExtra("step_5_image", _step5_image[position]);
+                intent.putExtra("step_6_image", _step6_image[position]);
                 _context.startActivity(intent);
             }
         });

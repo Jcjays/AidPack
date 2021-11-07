@@ -8,6 +8,12 @@
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,29 +21,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AidPack">
-        <activity android:name=".QuizResultDisplay">
+        <activity android:name=".GetStarted">
+
 
         </activity>
-        <activity android:name=".QuizModule">
-
-        </activity>
+        <activity android:name=".QuizResultDisplay"></activity>
+        <activity android:name=".QuizModule"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyByNK9Q3GMlT9Ova0HIssOzw4HryKjzVXY" />
 
         <activity android:name=".IntroLayout">
-
-        </activity>
-        <activity android:name=".youtubePlayer" />
-        <activity android:name=".FirstAidDisplayInfo" />
-        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".youtubePlayer" />
+        <activity android:name=".FirstAidDisplayInfo" />
+        <activity android:name=".MainActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

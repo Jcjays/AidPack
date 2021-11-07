@@ -11,4 +11,9 @@
     <color name="yellow">#C1CFC0</color>
     <color name="red">#CD5C5C</color>
     <color name="green">#228B22</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="deep_blue">#0153B5</color>
+    <color name="light_blue">#0078FA</color>
+    <color name="default_icon_color">#C3B3B4</color>
 </resources>

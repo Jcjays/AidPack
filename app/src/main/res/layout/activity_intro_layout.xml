@@ -30,23 +30,10 @@
             android:layout_below="@+id/introLogo"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/bubbler_one"
+            android:fontFamily="@font/candal"
             android:text="AidPack"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
-
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            app:lottie_rawRes="@raw/progress_bar"
-            android:layout_centerHorizontal="true"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-            android:layout_below="@id/aidpackIntro"/>
     </RelativeLayout>
-
-
-
-
 </LinearLayout>

@@ -33,7 +33,7 @@
                     android:padding="15dp"
                     android:text="PNP"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -47,7 +47,7 @@
                     android:gravity="center"
                     android:text="The Philippine National Police is tasked with enforcing the law, to prevent and control crimes, maintain peace and order."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -72,7 +72,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="MDRRMO"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -87,7 +87,7 @@
                     android:gravity="center"
                     android:text="Agency tasked to prepare for, and respond to, natural calamities, like typhoons and earthquakes."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -112,7 +112,7 @@
                     android:padding="15dp"
                     android:text="RHU LYING IN CLINIC"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -126,7 +126,7 @@
                     android:gravity="center"
                     android:text="An establishment for pregnant women."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -151,7 +151,7 @@
                     android:padding="15dp"
                     android:text="DSWD"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -165,7 +165,7 @@
                     android:gravity="center"
                     android:text="A government department that helps in administering and implement comprehensive social welfare programs."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -189,7 +189,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="BFP"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -204,7 +204,7 @@
                     android:gravity="center"
                     android:text="mandated to ensure public safety through the prevention and suppression of all kinds of destructive fires."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -229,7 +229,7 @@
                     android:padding="15dp"
                     android:text="RED CROSS"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -243,7 +243,7 @@
                     android:gravity="center"
                     android:text="Its mission is to alleviate human suffering, protect life and health, and uphold human dignity"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -268,7 +268,7 @@
                     android:padding="15dp"
                     android:text="MERALCO"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
@@ -282,7 +282,7 @@
                     android:gravity="center"
                     android:text="An establishment that focus on household electricity purposes."
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -306,7 +306,7 @@
                     android:gravity="center"
                     android:padding="15dp"
                     android:text="BJMP"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textColor="@color/white"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -321,7 +321,7 @@
                     android:gravity="center"
                     android:text="mandated to direct, supervise and control the administration and operation of all district, city and municipal jails nationwide"
                     android:textColor="@color/white"
-                    android:fontFamily="@font/andika"
+                    android:fontFamily="@font/convergence"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -348,25 +348,19 @@
             android:paddingTop="15dp"
             android:paddingBottom="20dp"
             android:text="Emergency \nHotlines"
-            android:fontFamily="@font/bubbler_one"
-            android:textColor="@color/secondary"
-            android:textSize="35sp"
+            android:fontFamily="@font/candal"
+            android:textColor="@color/black"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <com.airbnb.lottie.LottieAnimationView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_margin="10dp"
+            android:layout_margin="15dp"
             app:lottie_rawRes="@raw/hotline_anim"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"/>
     </RelativeLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Note: Tap to call"
-        android:textStyle="italic"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="115dp"/>
+
 
 </RelativeLayout>

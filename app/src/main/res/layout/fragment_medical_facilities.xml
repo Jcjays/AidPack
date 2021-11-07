@@ -27,7 +27,7 @@
                 android:layout_height="110dp"
                 android:layout_margin="15dp"
                 android:background="@drawable/round_bk5"
-                android:backgroundTint="#C1CFC0"
+                android:backgroundTint="@color/light_blue"
                 >
 
                 <TextView
@@ -37,8 +37,8 @@
                     android:layout_centerInParent="true"
                     android:gravity="center"
                     android:text="Grace Memorial \nHospital Foundation, Inc."
-                    android:fontFamily="@font/andika"
-                    android:textColor="@color/secondary"
+                    android:fontFamily="@font/convergence"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -68,7 +68,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -78,8 +78,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Unified Balagtas \nDoctors Hospital"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -95,7 +95,6 @@
                     android:layout_height="70dp"
                     android:src="@drawable/ic_hospital_buildings2"
                     android:layout_marginRight="25dp"
-
                     android:layout_alignParentRight="true"/>
 
             </RelativeLayout>
@@ -110,7 +109,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -120,8 +119,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Grace Memorial \nMaternity and General Hospital"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -150,7 +149,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -160,8 +159,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Centralle Medical \nDiagnostics and Polyclinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -191,7 +190,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -201,8 +200,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Fernando Clinic \nMaternity and Eye Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -231,7 +230,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -241,8 +240,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Gubatan \nMedical Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -272,7 +271,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -282,8 +281,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="St. Padre Pio \nAnimal Bite Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -312,7 +311,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -322,8 +321,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Polycare Clinic \nand Diagnostic Center"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -353,7 +352,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -363,8 +362,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Balagtas Physical \nTherapy Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -393,7 +392,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -403,8 +402,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="V.G. \nChildren's Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -434,7 +433,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -444,8 +443,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="DBVL \nMedical Center"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -474,7 +473,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -484,8 +483,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Dr. John G. Hernandez \nSkin Care Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -515,7 +514,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -525,8 +524,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Galela Multi-Specialty \nClinic &amp; Diagnostic Center"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -555,7 +554,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -565,8 +564,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="NAC Dental Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -596,7 +595,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -606,8 +605,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Galvez Dental Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -636,7 +635,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -646,8 +645,8 @@
                         android:layout_centerInParent="true"
                         android:gravity="center"
                         android:text="Solin R Yee \nDental Clinic"
-                        android:fontFamily="@font/andika"
-                        android:textColor="@color/secondary"
+                        android:fontFamily="@font/convergence"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -677,7 +676,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -685,10 +684,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:fontFamily="@font/andika"
+                        android:fontFamily="@font/convergence"
                         android:gravity="center"
                         android:text="RFB \nDental Care Clinic"
-                        android:textColor="@color/secondary"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -717,7 +716,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/deep_blue"
                     >
 
                     <TextView
@@ -725,10 +724,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:fontFamily="@font/andika"
+                        android:fontFamily="@font/convergence"
                         android:gravity="center"
                         android:text="Miraculous Faith \nUltrasound &amp; Diagnostic Center"
-                        android:textColor="@color/secondary"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -758,7 +757,7 @@
                     android:layout_height="110dp"
                     android:layout_margin="15dp"
                     android:background="@drawable/round_bk5"
-                    android:backgroundTint="@color/yellow"
+                    android:backgroundTint="@color/light_blue"
                     >
 
                     <TextView
@@ -766,10 +765,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_centerInParent="true"
-                        android:fontFamily="@font/andika"
+                        android:fontFamily="@font/convergence"
                         android:gravity="center"
                         android:text="Cocolife \nHealth Care Medical clinic"
-                        android:textColor="@color/secondary"
+                        android:textColor="@color/white"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -797,28 +796,30 @@
         android:layout_height="120dp"
         android:id="@+id/hotline_header">
 
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            app:lottie_rawRes="@raw/map_destination_anim"
+            app:lottie_autoPlay="true"
+            app:lottie_speed="0.5"
+            app:lottie_loop="true"/>
 
         <TextView
             android:id="@+id/get_directions"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_centerInParent="true"
-            android:paddingTop="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
             android:paddingBottom="5dp"
             android:text="Request \nDirections"
-            android:fontFamily="@font/bubbler_one"
-            android:textColor="#363554"
-            android:textSize="35sp"
-            android:textStyle="bold" />
+            android:fontFamily="@font/candal"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            />
 
-        <com.airbnb.lottie.LottieAnimationView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_margin="10dp"
-            app:lottie_rawRes="@raw/location_pin_map"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"/>
+
     </RelativeLayout>
 
 </RelativeLayout>

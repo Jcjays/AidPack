@@ -61,12 +61,14 @@
 
     <Button
         android:id="@+id/btnResultQuizExit"
-        android:layout_below="@+id/TVquizResultLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20sp"
+        android:layout_below="@+id/TVquizResultLabel"
+        android:layout_alignStart="@+id/TVquizResultLabel"
+        android:layout_alignEnd="@+id/TVquizResultLabel"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="-6dp"
         android:text="Exit"
-        android:textColor="@color/white"
-        />
+        android:textColor="@color/white" />
 </RelativeLayout>

@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.AidPack" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/secondary</item>
-        <item name="colorPrimaryVariant">@color/secondary</item>
+        <item name="colorPrimary">@color/deep_blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
         <item name="colorOnPrimary">@color/secondary</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

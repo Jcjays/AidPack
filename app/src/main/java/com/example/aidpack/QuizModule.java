@@ -269,26 +269,23 @@ public class QuizModule extends AppCompatActivity {
             if(score == quizObjects.getQuestionLength()){
                 //Perfect Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Perfect!, well done!", score);
+                intent.putExtra("Perfect", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
-
-
-                Toast.makeText(getBaseContext(), "Perfect!", Toast.LENGTH_SHORT).show();
                 finish();
+                Toast.makeText(getBaseContext(), "Perfect!", Toast.LENGTH_SHORT).show();
             }else if(score <= 14 && score >= 10){
                 //Good Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Good job! keep it up!", score);
+                intent.putExtra("Intermediate", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
-
-                Toast.makeText(getBaseContext(), "Intermediate!", Toast.LENGTH_SHORT).show();
                 finish();
+                Toast.makeText(getBaseContext(), "Intermediate!", Toast.LENGTH_SHORT).show();
             }else{
                 //Bad Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
-                intent.putExtra("Better luck next time!", score);
+                intent.putExtra("Poor", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
                 Toast.makeText(getBaseContext(), "Study again", Toast.LENGTH_SHORT).show();
