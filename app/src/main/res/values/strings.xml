@@ -268,7 +268,7 @@
         <item> </item>
         <item> </item>
     </string-array>
-    
+
     <string-array name="links_of_first_aid_services">
         <item>-NodDRTsV88</item>
         <item>XGnLkUty69g</item>
@@ -317,4 +317,5 @@
         <item>Do not forget your dental health.</item>
         <item>Consider taking vitamins and other supplements.</item>
     </string-array>
+
 </resources>

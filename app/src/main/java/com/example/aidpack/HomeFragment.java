@@ -1,6 +1,8 @@
 package com.example.aidpack;
 
+import android.app.ApplicationExitInfo;
 import android.content.Intent;
+import android.content.pm.ApplicationInfo;
 import android.net.Uri;
 import android.os.Bundle;
 
@@ -15,10 +17,18 @@ import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.thecode.aestheticdialogs.AestheticDialog;
+import com.thecode.aestheticdialogs.DialogStyle;
+import com.thecode.aestheticdialogs.DialogType;
+
 import org.w3c.dom.Text;
+
+import java.io.File;
+import java.util.Objects;
 
 public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickListener {
 
+    final String ANDROID_TYPE = "application/vnd.android.package-archive";
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -27,6 +37,7 @@ public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickL
         Button btnSettings = view.findViewById(R.id.btnHomeSetting);
         Button btnDonate = view.findViewById(R.id.btnDonateBlood);
         Button btnCall911 = view.findViewById(R.id.btnEmergencyCall);
+
 
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,18 +80,31 @@ public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickL
 
     @Override
     public boolean onMenuItemClick(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.item1:
-                Toast.makeText(getContext(), "item 1 clicked", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.item2:
-                Toast.makeText(getContext(), "item 2 clicked", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.item3:
-                Toast.makeText(getContext(), "item 3 clicked", Toast.LENGTH_SHORT).show();
-                return true;
-            default:
-                return false;
+        int id = item.getItemId();
+
+        if(id == R.id.item1) {
+            Toast.makeText(getContext(), "item 1 clicked", Toast.LENGTH_SHORT).show();
+            ApplicationInfo api = getContext().getApplicationInfo();
+            String apkpath = api.sourceDir;
+            Intent intent = new Intent(Intent.ACTION_SEND);
+            intent.setType(ANDROID_TYPE);
+            intent.putExtra(Intent.EXTRA_SUBJECT,Uri.fromFile(new File(apkpath)));
+            intent.putExtra(Intent.EXTRA_TEXT, apkpath);
+            startActivity(Intent.createChooser(intent, "ShareVia"));
         }
+
+        if(id == R.id.item2) {
+            Toast.makeText(getContext(), "item 2 clicked", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getContext(), EmailDevelopers.class);
+            startActivity(intent);
+        }
+
+        if(id == R.id.item3) {
+            Toast.makeText(getContext(), "item 3 clicked", Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(getContext(), AboutUs.class);
+            startActivity(intent);
+        }
+        return true;
     }
+
 }

@@ -84,4 +84,9 @@ public class MainActivity extends AppCompatActivity {
                 .replace(R.id.main_frame_layout, fragment)
                 .commit();
     }
+
+    @Override
+    public void onBackPressed() {
+
+    }
 }

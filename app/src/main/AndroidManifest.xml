@@ -21,12 +21,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AidPack">
-        <activity android:name=".GetStarted">
-
-
-        </activity>
-        <activity android:name=".QuizResultDisplay"></activity>
-        <activity android:name=".QuizModule"></activity>
+        <activity android:name=".AboutUs"></activity>
+        <activity android:name=".EmailDevelopers"></activity>
+        <activity android:name=".GetStarted" />
+        <activity android:name=".QuizResultDisplay" />
+        <activity android:name=".QuizModule" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -41,7 +40,7 @@
         </activity>
         <activity android:name=".youtubePlayer" />
         <activity android:name=".FirstAidDisplayInfo" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
