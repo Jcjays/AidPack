@@ -83,7 +83,6 @@ public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickL
         int id = item.getItemId();
 
         if(id == R.id.item1) {
-            Toast.makeText(getContext(), "item 1 clicked", Toast.LENGTH_SHORT).show();
             ApplicationInfo api = getContext().getApplicationInfo();
             String apkpath = api.sourceDir;
             Intent intent = new Intent(Intent.ACTION_SEND);
@@ -94,13 +93,11 @@ public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickL
         }
 
         if(id == R.id.item2) {
-            Toast.makeText(getContext(), "item 2 clicked", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(getContext(), EmailDevelopers.class);
             startActivity(intent);
         }
 
         if(id == R.id.item3) {
-            Toast.makeText(getContext(), "item 3 clicked", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(getContext(), AboutUs.class);
             startActivity(intent);
         }

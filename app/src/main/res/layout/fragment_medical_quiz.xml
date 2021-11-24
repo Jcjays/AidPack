@@ -63,10 +63,10 @@
             android:layout_marginStart="121dp"
             android:layout_marginTop="110dp"
             android:layout_marginEnd="114dp"
-            android:fontFamily="@font/andika"
+            android:fontFamily="@font/basic"
             android:gravity="center"
             android:textSize="16sp"
-            android:text="Previous score:\n 0 out of 15"
+            android:text=""
             android:textColor="@color/light_blue" />
 
 

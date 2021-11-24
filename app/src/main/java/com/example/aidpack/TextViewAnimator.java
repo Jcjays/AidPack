@@ -19,7 +19,7 @@ public class TextViewAnimator {
     public String[] mCollectionHolder;
 
     public TextViewAnimator(TextView textV, String[] textList){
-        this(textV, 700, 2000, 3000, textList);
+        this(textV, 700, 2000, 4000, textList);
     }
 
     public TextViewAnimator(TextView textView, int fadeEffectDuration, int delayDuration, int displayLength, String[] textList )

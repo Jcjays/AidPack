@@ -8,6 +8,7 @@ import android.speech.tts.TextToSpeech;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -19,7 +20,6 @@ import java.util.Locale;
 public class FirstAidDisplayInfo extends AppCompatActivity {
     private ImageView _title_image;
     private Button _button_play;
-
     private TextView _first_description;
     private TextView _second_description;
     private TextView _third_description;

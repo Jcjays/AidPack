@@ -4,6 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="yes">Yes</string>
     <string name="cancel">Cancel</string>
+
     <string-array name="array_medical_facts">
         <item>Laughing is good for the heart and can increase blood flow by 20 percent.</item>
         <item>Your skin works hard. Not only is it the largest organ in the body, but it regulates your temperature and defends against disease and infection.</item>
@@ -43,7 +44,7 @@
         <item>MYTH: \nWhen a newborn baby pinches their nose, they can have a pointed nose.</item>
         <item>MYTH: \nThe food is still clean when it is retrieved in the floor within 5 seconds.</item>
         <item>MYTH: \nSucking the blood from the pricked/wounded finger so it can re-enter to your body.</item>
-        <item>MYTH: \nJumping in new year so that you be taller.</item>
+        <item>MYTH: \nJumping in new year makes you taller.</item>
         <item>MYTH: \nGetting sick from taking a bath after intensive exercise.</item>
         <item>MYTH: \nCombing your hair at night can cause hair fall.</item>
         <item>MYTH: \nStye (kuliti) on your eyes is cause by peeking on someone who is taking a bath or dressing.</item>
@@ -71,7 +72,7 @@
         <item>Wound Care</item>
         <item>Poisons</item>
         <item>Heart Conditions</item>
-        <item>Shock</item>
+        <item>Electric Shock</item>
         <item>Stroke</item>
         <item>Allergic Reactions</item>
         <item>Bites &amp; String</item>
@@ -98,8 +99,8 @@
             \n-Encourage him/her to cough and breath.
             \n-Do NOT use back blows or chest trust on victim who is able to breath.</item>
         <!--Sprains-->
-        <item>Step 1: \nFor the injured area put some ice pack to it for about a day, once the swelling decreases the next thing to do is to apply heat packs or pads.\n
-        \nNOTE: \nRemember that immediate applying of heat pack from the injured will cause pain and increased swelling. Make sure to use some cover such us towels when you used ice and heat. </item>
+        <item>Step 1: \nFirst, REST for about 24-48 hours to lessen the swelling. Avoid moving the injured area because it slow down the healing process.\n
+        \nNOTE: \nRemember that immediate applying of heat pack from the injured area will cause pain and increased swelling. Make sure to use some cover such us towels when you used ice and heat. </item>
         <!--Asthma-->
         <item>Step 1: \nFirst thing to do is used the prescribed inhaler by your doctor and take 2 to 4 puff every 30 minutes.</item>
         <!--Fractures-->
@@ -171,8 +172,7 @@
         <item>(If the bleeding was severe do the following steps.)\n
         \nStep 1: \nGet a clean cloth and put it to bleeding area and closed it with a tape, or tie it so that you can control the bleeding.</item>
         <item>Step 2: \nCheck for removable material on the throat.</item>
-        <item>To heal the injured muscle.\n
-            \nStep 3: \nApply iced pack for about twenty minutes with an interval time of 1 hour. This step is used to reduce the pain and swelling.</item>
+        <item>Step 3: \nApply iced pack for about twenty minutes with an interval time of 1 hour. This step is used to reduce the pain and swelling.</item>
         <item>Step 3: \nKeep at rest position and consider drinking water to avoid dehydration.</item>
         <item>Step 3: \nUse ice packs to the broken part for 10–15 minutes.</item>
         <item>Step 3: \nPut the left arm across the chest.</item>
@@ -206,7 +206,7 @@
         <item>Step 4: \nRaise the left knee then lay foot flat on the ground.</item>
         <item>Step 4: \nLastly don’t frighten the person once he/she regained consciousness.</item>
         <item>Step 4: \nKeep the wounded area clean and frequently change the gauze/cover until the wound healed.</item>
-        <item> </item>
+        <item>Step 4: \nImmediately call emergency or bring the victim to the nearest hospital.</item>
         <item>Step 4: \nInitiate CPR when the person is unconscious. If the person is not breathing or cannot find a pulse, begin CPR to help maintain blood flow after calling an ambulance.</item>
         <item>Step 4: \nApply a bandage. Cover any burned areas with a sterile gauze bandage, if available, or a clean cloth. Don\'t use a blanket or towel, because loose fibers can stick to the burns</item>
         <item>Time: \nDuring a stroke every minute counts. If you observe any of these signs, call your local emergency number immediately.</item>
@@ -281,16 +281,16 @@
         <item>Ovsw7tdneqE</item>
         <item>4e7evinsfm0</item>
         <item>b2ieb8BZJuY</item>
+        <item>gDwt7dD3awc</item>
+        <item>myq7NBgsMD0</item>
+        <item>qrN0j6odPVo</item>
+        <item>yOTgmfA8jNk</item>
         <item>suNiaxLEr2Y</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
-        <item>SvTr9QA5NvA</item>
+        <item>L06DNMRcy98</item>
+        <item>H-QRJjBNbhA</item>
+        <item>8KcoPLSgBAM</item>
+        <item>a4cIFZx1f2E</item>
+        <item>DHDFmiQVcnY</item>
     </string-array>
 
 
@@ -299,7 +299,7 @@
         <item>Consume less salt and sugar</item>
         <item>Reduce intake of harmful fats</item>
         <item>Avoid harmful use of alcohol</item>
-        <item>Do not smoke</item>
+        <item>Avoid smoking or using drugs</item>
         <item>Be active</item>
         <item>Check your blood pressure regularly</item>
         <item>Cover your mouth when coughing or sneezing</item>

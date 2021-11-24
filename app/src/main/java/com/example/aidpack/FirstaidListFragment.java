@@ -33,57 +33,50 @@ public class FirstaidListFragment extends Fragment {
                     R.drawable.blood, R.drawable.choking, R.drawable.sprain, R.drawable.asthma,
                     R.drawable.broken_bone, R.drawable.recovery, R.drawable.lie_down, R.drawable.wound_care,
                     R.drawable.poison, R.drawable.heart_attack, R.drawable.shocked, R.drawable.stroke,
-                    R.drawable.allergy, R.drawable.icon_sample, R.drawable.sweets, R.drawable.overdose,
+                    R.drawable.allergy, R.drawable.bites_sting_img, R.drawable.sweets, R.drawable.overdose,
                     R.drawable.eye, R.drawable.head, R.drawable.chiropractic};
 
-    int [] first_aid_description_images_header = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample, R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample, R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample, R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample, R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample, R.drawable.icon_sample};
+    int [] first_aid_description_images_step_1 = {R.drawable.cpr_injury_step_1,R.drawable.burn_injury_step_1,
+            R.drawable.bleeding_injury_step_1,R.drawable.choking_injury_step_1,R.drawable.sprains_injury_step_1,R.drawable.icon_sample,
+            R.drawable.bleeding_injury_step_4,R.drawable.recovery_position_step_1,R.drawable.seizure_injury_step_1,R.drawable.icon_sample,
+            R.drawable.icon_sample,R.drawable.heart_injury_step_1,R.drawable.icon_sample,R.drawable.stroke_injury_step_1,
+            R.drawable.allergy_injury_step_1,R.drawable.bites_injury_step_1,R.drawable.diabetic_injury_step_1,R.drawable.drug_overdose_injury_step_1,
+            R.drawable.eye_injury_step_1,R.drawable.head_injury_step_1,R.drawable.spinal_injury_step_1};
 
-    int [] first_aid_description_images_step_1 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
+    int [] first_aid_description_images_step_2 = {R.drawable.cpr_injury_step_2,R.drawable.burn_injury_step_2,
+            R.drawable.bleeding_injury_step_2,R.drawable.choking_injury_step_2,R.drawable.sprains_injury_step_2,R.drawable.icon_sample,
+            R.drawable.fracture_injury_step_2,R.drawable.recovery_position_step_2,R.drawable.seizure_injury_step_2,R.drawable.icon_sample,
+            R.drawable.icon_sample,R.drawable.heart_injury_step_2,R.drawable.icon_sample,R.drawable.stroke_injury_step_2,
+            R.drawable.allergy_injury_step_2,R.drawable.bites_injury_step_2,R.drawable.diabetic_injury_step_2,R.drawable.drug_overdose_injury_step_2,
+            R.drawable.eye_injury_step_2,R.drawable.head_injury_step_2,R.drawable.spinal_injury_step_2};
 
-    int [] first_aid_description_images_step_2 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
+    int [] first_aid_description_images_step_3 = {R.drawable.cpr_injury_step_3,R.drawable.burn_injury_step_3,
+            R.drawable.bleeding_injury_step_3,R.drawable.choking_injury_step_3,R.drawable.sprains_injury_step_3,R.drawable.icon_sample,
+            R.drawable.fracture_injury_step_3,R.drawable.recovery_position_step_3,R.drawable.seizure_injury_step_3,R.drawable.icon_sample,
+            R.drawable.icon_sample,R.drawable.heart_injury_step_3,R.drawable.icon_sample,R.drawable.stroke_injury_step_3,
+            R.drawable.allergy_injury_step_3,R.drawable.bites_injury_step_3,R.drawable.diabetic_injury_step_3,R.drawable.drug_overdose_injury_step_3,
+            R.drawable.eye_injury_step_3,R.drawable.head_injury_step_3,R.drawable.spinal_injury_step_3};
 
-    int [] first_aid_description_images_step_3 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
+    int [] first_aid_description_images_step_4 = {R.drawable.cpr_injury_step_4,R.drawable.burn_injury_step_4,
+            R.drawable.bleeding_injury_step_4,R.drawable.choking_injury_step_4,R.drawable.sprains_injury_step_4,R.drawable.icon_sample,
+            R.drawable.fracture_injury_step_4,R.drawable.recovery_position_step_4,R.drawable.seizure_injury_step_4,R.drawable.icon_sample,
+            NO_DATA,R.drawable.heart_injury_step_4,R.drawable.icon_sample,R.drawable.stroke_injury_step_4,
+            NO_DATA,R.drawable.bites_injury_step_4,R.drawable.icon_sample,R.drawable.drug_overdose_injury_step_4,
+            R.drawable.eye_injury_step_4,R.drawable.head_injury_step_4,R.drawable.spinal_injury_step_4};
 
-    int [] first_aid_description_images_step_4 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
+    int [] first_aid_description_images_step_5 = {R.drawable.cpr_injury_step_5,R.drawable.burn_injury_step_5,
+            NO_DATA,NO_DATA,R.drawable.sprains_injury_step_5,NO_DATA,
+            R.drawable.fracture_injury_step_5,R.drawable.recovery_position_step_5,NO_DATA,NO_DATA,
+            NO_DATA,R.drawable.heart_injury_step_5,NO_DATA,NO_DATA,
+            NO_DATA,R.drawable.bites_injury_step_5,R.drawable.diabetic_injury_step_5,NO_DATA,
+            NO_DATA,NO_DATA,NO_DATA};
 
-    int [] first_aid_description_images_step_5 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
-
-    int [] first_aid_description_images_step_6 = {R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample,
-            R.drawable.icon_sample,R.drawable.icon_sample,R.drawable.icon_sample};
+    int [] first_aid_description_images_step_6 = {NO_DATA,NO_DATA,
+            NO_DATA,NO_DATA,NO_DATA,NO_DATA,
+            NO_DATA,R.drawable.recovery_position_step_6,NO_DATA,NO_DATA,
+            NO_DATA,R.drawable.heart_injury_step_6,NO_DATA,NO_DATA,
+            NO_DATA,R.drawable.bites_injury_step_6,NO_DATA,NO_DATA,
+            NO_DATA,NO_DATA,NO_DATA};
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -103,11 +96,12 @@ public class FirstaidListFragment extends Fragment {
         MyAdapter adapter = new MyAdapter(getContext(), _title, _images_of_first_aid_services_title,
                 _first_aid_description_step_1, _first_aid_description_step_2, _first_aid_description_step_3,
                 _first_aid_description_step_4, _first_aid_description_step_5, _first_aid_description_step_6,
-                _first_aid_links, first_aid_description_images_header, first_aid_description_images_step_1,
+                _first_aid_links, _images_of_first_aid_services_title, first_aid_description_images_step_1,
                 first_aid_description_images_step_2,first_aid_description_images_step_3,first_aid_description_images_step_4,
                 first_aid_description_images_step_5,first_aid_description_images_step_6);
 
         _recycler.setAdapter(adapter);
+        _recycler.setHasFixedSize(true);
         _recycler.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL,false));
 
     }

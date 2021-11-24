@@ -36,7 +36,6 @@ public class QuizModule extends AppCompatActivity {
     private String answer;
     private int score, counter;
 
-    //private int currentQuestion = 0;
 
     private final QuizObjects quizObjects = new QuizObjects();
     int currentQuestion;

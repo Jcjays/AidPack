@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.TextSwitcher;
 import android.widget.TextView;
 
 import java.util.Random;
@@ -41,8 +42,10 @@ public class MedicalFactFragment extends Fragment {
             public void onClick(View v) {
                 int x = rand.nextInt(_listOfFacts.length);
                 _txtFacts.setText(_listOfFacts[x]);
+
             }
         });
 
     }
+
 }

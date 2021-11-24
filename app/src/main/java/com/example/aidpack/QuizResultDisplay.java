@@ -72,8 +72,10 @@ public class QuizResultDisplay extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+        int quizMaxLength = getIntent().getIntExtra("quizLength", 0);
         SharedPreferences sharedPreferences = getSharedPreferences(NEW_SCORE_EXTRA, MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt("QUIZ_MAX_LENGTH", quizMaxLength);
         editor.putInt("Score", highScore);
         editor.apply();
     }

@@ -47,13 +47,19 @@ public class MedicalQuizFragment extends Fragment {
         super.onStart();
         SharedPreferences sharedPreferences = requireActivity().getSharedPreferences(NEW_SCORE_EXTRA, Context.MODE_PRIVATE);
         if(!sharedPreferences.getBoolean("Confirm", false)){
+            mScore.setVisibility(View.INVISIBLE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putBoolean("Confirm", true);
             editor.apply();
-            mScore.setText("Previous score:\n 0 out of 15");
         }else{
+
             int score = sharedPreferences.getInt("Score", 0);
-            mScore.setText("Previous score:\n" + score + " out of 15");
+            int quizMaxLength = sharedPreferences.getInt("QUIZ_MAX_LENGTH", 0);
+            if (sharedPreferences.contains("QUIZ_MAX_LENGTH")){
+                mScore.setVisibility(View.VISIBLE);
+                mScore.setText("Previous score:\n" + score + " out of " + quizMaxLength);
+            }
+
         }
     }
 }
