@@ -1,2 +1,2 @@
 # AidPack
-My current IT capstone that im developing using Android Studio.
+A IT capstone project AidPack is a basic first-aid application.
