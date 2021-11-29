@@ -238,6 +238,11 @@ public class QuizModule extends AppCompatActivity {
         _questionCounter.setText(counter + 1 + " out of " + quizObjects.getQuestionLength());
     }
 
+    @Override
+    public void onBackPressed() {
+
+    }
+
     @SuppressLint("SetTextI18n")
     private void updateQuestion(){
         if(counter < quizObjects.getQuestionLength()){
@@ -291,6 +296,7 @@ public class QuizModule extends AppCompatActivity {
                 finish();
             }
         }
+
     }
     private void updateScore(int points){
         score = points;

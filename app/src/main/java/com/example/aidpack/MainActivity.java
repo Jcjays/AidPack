@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigation = findViewById(R.id.bottom_navigation);
         bottomNavigation.add(new MeowBottomNavigation.Model(1, R.drawable.ic_baseline_home_24));
         bottomNavigation.add(new MeowBottomNavigation.Model(2, R.drawable.medical_fact_check));
-        bottomNavigation.add(new MeowBottomNavigation.Model(3, R.drawable.medilcal_quiz));
-        bottomNavigation.add(new MeowBottomNavigation.Model(4, R.drawable.first_aid_services));
+        bottomNavigation.add(new MeowBottomNavigation.Model(3, R.drawable.first_aid_services));
+        bottomNavigation.add(new MeowBottomNavigation.Model(4, R.drawable.medilcal_quiz));
         bottomNavigation.add(new MeowBottomNavigation.Model(5, R.drawable.medical_facilities_location));
         bottomNavigation.add(new MeowBottomNavigation.Model(6, R.drawable.medical_hotline));
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
@@ -45,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new MedicalFactFragment();
                         break;
                     case 3:
-                        fragment = new MedicalQuizFragment();
+                        fragment = new FirstaidListFragment();
                         break;
                     case 4:
-                        fragment = new FirstaidListFragment();
+                        fragment = new MedicalQuizFragment();
                         break;
                     case 5:
                         fragment = new MedicalFacilitiesFragment();

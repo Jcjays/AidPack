@@ -34,9 +34,11 @@ public class HotlineFragment extends Fragment {
         final String mdrrmc = "tel:(02)9111406";
         final String redcross = "tel:(044)8960568";
         final String meralco = "tel:(044)7951445";
+        final String nationwide = "tel:911";
 
 
         //hook
+        Button btnNationwide = getView().findViewById(R.id.btn_hotline_911);
         Button btnPnp = getView().findViewById(R.id.btn_Hotline_PNP);
         Button btnBfp = getView().findViewById(R.id.btn_Hotline_BFP);
         Button btnBjmp = getView().findViewById(R.id.btn_hotline_BJMP);
@@ -47,6 +49,15 @@ public class HotlineFragment extends Fragment {
         Button btnMeralco = getView().findViewById(R.id.btn_Hotline_Meralco);
 
         //Listeners
+
+        btnNationwide.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_DIAL);
+                intent.setData(Uri.parse(nationwide));
+                startActivity(intent);
+            }
+        });
 
         btnPnp.setOnClickListener(new View.OnClickListener() {
             @Override

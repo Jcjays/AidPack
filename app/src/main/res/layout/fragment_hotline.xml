@@ -17,6 +17,46 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/round_bk5"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:text="911"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/convergence"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="45dp"
+                    android:layout_marginRight="40dp"
+                    android:gravity="center"
+                    android:text="A nationwide hotline in the philippines for any type of emergency situations."
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/convergence"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn_hotline_911"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000" />
+
+            </RelativeLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"

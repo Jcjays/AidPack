@@ -147,23 +147,20 @@
 
     <Button
         android:id="@+id/btnQuizExit"
-        android:layout_height="30dp"
         android:layout_width="30dp"
-        android:background="@drawable/ic_baseline_arrow_back_24"
-        android:fontFamily="@font/bubbler_one"
-        android:layout_marginBottom="20dp"
-        android:layout_marginStart="20sp"
+        android:layout_height="30dp"
         android:layout_alignParentBottom="true"
-        />
+        android:layout_marginStart="20sp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/ic_baseline_arrow_back_24" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:layout_alignLeft="@+id/btnQuizExit"
+        android:layout_toEndOf="@+id/btnQuizExit"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="30sp"
-        android:layout_marginBottom="24dp"
-        android:fontFamily="@font/andika"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/basic"
         android:gravity="center"
         android:text="Exit"
         android:textColor="@color/red"
