@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Homepage_reminder" translatable="false">Reminder</string>
+
+    <string name="Homepage_call_911" translatable="false">Call 911</string>
+
+    <string name="Homepage_covid_prevention" translatable="false">Covid-19 Prevention</string>
+
+    <string name="Homepage_donate_blood" translatable="false">Donate Blood</string>
+
+    <string name="Homepage_avoid_close_contact" translatable="false">Avoid close contact</string>
+
+    <string name="Homepage_wash_your_hands" translatable="false">Wash your hands</string>
+
+    <string name="Homepage_wear_face_mask" translatable="false">Wear face mask</string>
+
+    <string name="Homepage_call_911_description" translatable="false">A national emergency telephone number in the philippines</string>
+
+    <string name="Homepage_donate_blood_description" translatable="false">A healthy individual may donate every three months</string>
+</resources>

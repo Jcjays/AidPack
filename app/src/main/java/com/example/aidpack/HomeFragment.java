@@ -6,17 +6,26 @@ import android.content.pm.ApplicationInfo;
 import android.net.Uri;
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.PopupMenu;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.airbnb.lottie.L;
 import com.thecode.aestheticdialogs.AestheticDialog;
 import com.thecode.aestheticdialogs.DialogStyle;
 import com.thecode.aestheticdialogs.DialogType;
@@ -29,15 +38,16 @@ import java.util.Objects;
 public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickListener {
 
     final String ANDROID_TYPE = "application/vnd.android.package-archive";
+    ConstraintLayout home;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
-        Button btnSettings = view.findViewById(R.id.btnHomeSetting);
-        Button btnDonate = view.findViewById(R.id.btnDonateBlood);
-        Button btnCall911 = view.findViewById(R.id.btnEmergencyCall);
-
+        ImageView btnSettings = view.findViewById(R.id.btnHomeSetting);
+        RelativeLayout btnDonate = view.findViewById(R.id.btnDonateBlood);
+        RelativeLayout btnCall911 = view.findViewById(R.id.btnEmergencyCall);
+        home = view.findViewById(R.id.homeFragment);
 
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -101,7 +111,22 @@ public class HomeFragment extends Fragment implements PopupMenu.OnMenuItemClickL
             Intent intent = new Intent(getContext(), AboutUs.class);
             startActivity(intent);
         }
+
+        if(id == R.id.item5){
+            LocaleHelper.setLocale(getContext(), "en");
+            refreshThisLayout();
+        }
+
+        if(id == R.id.item6){
+            LocaleHelper.setLocale(getContext(), "phi");
+            refreshThisLayout();
+        }
         return true;
     }
 
+    public void refreshThisLayout(){
+        Intent intent = new Intent(getContext(), MainActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+        startActivity(intent);
+    }
 }

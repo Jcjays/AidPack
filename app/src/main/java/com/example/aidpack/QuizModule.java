@@ -278,14 +278,14 @@ public class QuizModule extends AppCompatActivity {
                 startActivity(intent);
                 finish();
                 Toast.makeText(getBaseContext(), "Perfect!", Toast.LENGTH_SHORT).show();
-            }else if(score <= 14 && score >= 10){
+            }else if(score <= (quizObjects.getQuestionLength() - 1) && score >= (quizObjects.getQuestionLength() - 5)){
                 //Good Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);
                 intent.putExtra("Intermediate", score);
                 intent.putExtra("quizLength", quizObjects.getQuestionLength());
                 startActivity(intent);
                 finish();
-                Toast.makeText(getBaseContext(), "Intermediate!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "Almost!", Toast.LENGTH_SHORT).show();
             }else{
                 //Bad Score
                 Intent intent = new Intent(QuizModule.this, QuizResultDisplay.class);

@@ -44,6 +44,6 @@ public class GetStarted extends AppCompatActivity {
     private void moveToHomePage() {
         Intent intent = new Intent(getBaseContext(), MainActivity.class);
         startActivity(intent);
-
+        finish();
     }
 }

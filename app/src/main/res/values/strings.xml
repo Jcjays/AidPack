@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">AidPack</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="yes">Yes</string>
-    <string name="cancel">Cancel</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="cancel" translatable="false">Cancel</string>
 
     <string-array name="array_medical_facts">
         <item>Laughing is good for the heart and can increase blood flow by 20 percent.</item>
@@ -26,7 +26,7 @@
         <item>MYTH: \nWhen you go straight to bed with wet hair your eyes might be blinded</item>
         <item>MYTH: \nWhen a frog urine in your skin it could cause warts.</item>
         <item>MYTH: \nUsing a thread and getting it wet with saliva can get rid a hiccup.</item>
-        <item>MYTH: \nWomen can get pregnant with the help of <i>hilot</i>i>.</item>
+        <item>MYTH: \nWomen can get pregnant with the help of hilot.</item>
         <item>MYTH: \nFilipino believe that eating gecko can cure asthma.</item>
         <item>MYTH: \nYou can have a great singing voice when you eat an ant.</item>
         <item>MYTH: \nUsog to children can cause fever, convulsions and etc.</item>

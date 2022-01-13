@@ -16,6 +16,7 @@
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
         app:showSeekBar="true"
+        app:useWebUi="true"
         app:showFullScreenButton="true"
         app:showYouTubeButton="false" />
 </RelativeLayout>

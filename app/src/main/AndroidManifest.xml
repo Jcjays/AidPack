@@ -21,29 +21,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AidPack">
-        <activity android:name=".AboutUs"></activity>
-        <activity android:name=".EmailDevelopers"></activity>
-        <activity android:name=".GetStarted" />
-        <activity android:name=".QuizResultDisplay" />
-        <activity android:name=".QuizModule" />
+        <activity android:name=".AboutUs" android:screenOrientation="portrait"/>
+        <activity android:name=".EmailDevelopers" android:screenOrientation="portrait"/>
+        <activity android:name=".GetStarted" android:screenOrientation="portrait"/>
+        <activity android:name=".QuizResultDisplay" android:screenOrientation="portrait"/>
+        <activity android:name=".QuizModule" android:screenOrientation="portrait"/>
+        <activity android:name=".FirstAidDisplayInfo" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait"/>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyByNK9Q3GMlT9Ova0HIssOzw4HryKjzVXY" />
 
-        <activity android:name=".IntroLayout">
+        <activity android:name=".IntroLayout"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".youtubePlayer"
             android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
             >
         </activity>
-        <activity android:name=".FirstAidDisplayInfo" />
-        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

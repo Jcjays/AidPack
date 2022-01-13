@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Homepage_reminder" translatable="false">Paalala:</string>
+    <string name="Homepage_avoid_close_contact" translatable="false">Ugaliing Dumistansya</string>
+    <string name="Homepage_wash_your_hands" translatable="false">Maghugas ng kamay</string>
+    <string name="Homepage_wear_face_mask" translatable="false">Suotin ang face mask</string>
+    <string name="Homepage_call_911_description" translatable="false">Pambansang numero upang makahingi ng agarang tulong</string>
+    <string name="Homepage_donate_blood_description" translatable="false">Ang isang malusog na tao ay pwedeng mag donate ng dugo kada tatlong buwan</string>
+    <string name="Homepage_call_911" translatable="false">Tumawag sa 911</string>
+    <string name="Homepage_donate_blood" translatable="false">Mag donate ng dugo</string>
+    <string name="Homepage_covid_prevention" translatable="false">Pag-iwas sa Covid-19</string>
+
+    <string-array name="medical_reminders">
+        <item>Kumain ng masusustansyang pagkain</item>
+        <item>Bawasan ang pagkain ng sobrang maaalat na pagkain</item>
+        <item>Bawasan ang pagkain ng matatabang pagkain</item>
+        <item>Iwasan ang sobrang pag inom ng alak</item>
+        <item>Huwag manigarilyo at iwasan ang pag gamit ng pinagbabawal na droga</item>
+        <item>Mag ehersisyo</item>
+        <item>Ugaliing bantayan ang iyong blood sugar level</item>
+        <item>Takpan ang bibig sa tuwing uubo o babahing</item>
+        <item>Mag hanap ng kausap sa oras ng kalungkutan o problema</item>
+        <item>Huwag iinom ng antibiotic na hindi inireseta</item>
+        <item>Ugaliin ang pag huhugas ng kamay</item>
+        <item>Ugaliing magpatingin sa doktor</item>
+        <item>Ugaliing ang pag inom ng walong basong tubig kada araw</item>
+        <item>Umiwas sa gulo at di kanais nais na kapaligiran</item>
+        <item>Magkaroon ng sapat ng pahinga</item>
+        <item>Ugaliing magkaroon ng sapat na pahinga</item>
+        <item>Panatilihin ang malusog na pangangatawan</item>
+        <item>Humanap ng mga bagay na ikakaligaya mo</item>
+        <item>Kumain ng prutas at gulay</item>
+        <item>Huwag kalimutan ipatingin ang iyong dental health</item>
+        <item>Ugaliin uminom ng bitamina</item>
+    </string-array>
+
+    <string-array name="array_medical_facts">
+        <item>Ang pagtawa ay nakakabuti sa puso at nakakatulong na mapaganda ang pagdaloy ng dugo ng 20 porsiyento.</item>
+        <item>Ang balat saating katawan ay napakahalaga. Hindi lamang ito ang pinakamalaking organ sa katawan, ngunit kinokontrol nito ang iyong temperatura at nagpoprotekta laban sa sakit at impeksyon.</item>
+        <item>Laging maging positibo: ang pagiging optimista ay makakatulong upang humaba ang ating buhay.</item>
+        <item>Ang kakulangan sa ehersisyo ay nagdudulot ng maraming pagkamatay kagaya sa paninigarilyo.</item>
+        <item>39 porsiyento ng mga nasa hustong gulang sa mundo ay sobra sa timbang.</item>
+        <item>Sa pagitan ng taong 2000 at 2015, ang average na global life expectancy ay tumaas ng limang taon.</item>
+        <item>Hindi hihigit sa 1 porsiyento ng mga amerikano ang nagbibisikleta papunta sakanilang trabaho.</item>
+        <item>Ang US ay gumagastos ng halos tatlong beses na mas malaki sa pangangalagang pangkalusugan kaysa sa ibang bansa, ngunit nasa huling puwesto sa may matatagal na buhay sa 12 pinakamayayamang industriyal na bansa.</item>
+        <item>Nakakatulong sa pag iisip ng mabilis ang pag-aaral ng bagong lenggwahe o pagtugtog ng instrumento.</item>
+        <item>Stress ka ba? Magbasa. dahil maaaring nitong mapababa ang antas ng cortisol, at iba pang hindi malusog na stress hormones sa iyong katawan ng 68 porsiyento.</item>
+        <item>Ang pagpapanatili ng mabuting relasyon sa iyong kaibigan at pamilya ito ay nakakabawas sa  nakakapinsalang antas ng stress at nakakapagpalakas sa immune system.</item>
+        <item>Ang pag-inom ng kape ay maaaring mabawasan ang panganib dala ng depresyon, partikular sa mga kababaihan.</item>
+        <item>Kahit ikaw ay pagod, ang pageehersisyo ay nakakapagbigay ng lakas at enerhiya.</item>
+        <item>Ang 100 beses na pagtawa ay katumbas ng pag-eehersisyo kagaya sa stationary bike.</item>
+        <item>Ang 11 minutong paninigarilyo ay maaaring makabawas sa haba ng iyong buhay.</item>
+        <item>kapag nakahawak tayo sa isang bagay nagpapadala tayo ng mga mensahe sa ating utak sa bilis na 200km/h.</item>
+        <item>Mas marami ang bilang ng mikrobiyo sa ating bibig kumpara sa dami ng populasyon sa mundo.</item>
+        <item>Paniniwala: \nNakakabulag ng paningin ang paghiga kapag ang iyong buhok ay basa.</item>
+        <item>Paniniwala: \nAng ihi ng palaka ay nagdudulot ng kulugo.</item>
+        <item>Paniniwala: \nAng sinok ay nawawala sa pamamagitan ng paglalagay sa noo ng sinulid na basa gamit ng laway.</item>
+        <item>Paniniwala: \nAng hilot ay nakakatulong upang mabuntis ang babae.</item>
+        <item>Paniniwala: \nAng pagkain ng tuko ay gamot sa hika.</item>
+        <item>Paniniwala: \nGaganda ang iyong boses sa pag-kanta kung ikaw ay naka-kain ng langgam.</item>
+        <item>Paniniwala: \nAng pagkakaroon ng lagnat o kombulsyon ay sanhi ng usog.</item>
+        <item>Paniniwala: \nAng mga sanggol ay magkakaroon ng sakit kapag sila ay nahamugan kung sila ay lalabas ng gabi. </item>
+        <item>Paniniwala: \nAng pagkakaroon ng hika ay maiiwasan kung ikaw ay maglalagay ng tuwalya sa likod upang makuha nito ang pawis.</item>
+        <item>Paniniwala: \nAng sobra sa asukal ay nagsasanhi ng hyperactivity o ADHD sa mga bata</item>
+        <item>Paniniwala: \nAng mga bata ay nagkakaroon ng autism dahil sa pag babakuna.</item>
+        <item>Paniniwala: \nPag pahid ng unang regla ng babae sa muka ay makakatulong sa pagkinis ng mukha o pagkaiwas sa acne.</item>
+        <item>Paniniwala: \nNagsasanhi ng pagkabaliw ng mga babae ang pagligo habang sila ay mayroong regla.</item>
+        <item>Paniniwala: \nNakakawala ng heartburn or sakit ng tiyan kung ikaw ay iinom ng kape tuwing umaga.</item>
+        <item>Paniniwala: \nAng paglagay ng tina sa leeg na mayroong beke ay nakakatulong sa pagimpis or paggaling nito.</item>
+        <item>Paniniwala: \nPagkain ng mga maliliit na buto at pagbubuhat ng mabibigat pag-katapos kumain ay sanhi ng pagkakaroon ng appendicitis.</item>
+        <item>Paniniwala: \nPinaniniwalaan na ang gamot sa sore eyes ay ang gatas na mula sa nanay.</item>
+        <item>Paniniwala: \nKung ang isang tao ay nahimatay sampal-sampalin ito o di kaya ay kagatin ang mga daliri upang magising ang taong nahimatay.</item>
+        <item>Paniniwala: \nAng pagipit sa ilong ng bagong silang na sanggol ay makakatulong upang tumangos ang kanyang ilong.</item>
+        <item>Paniniwala: \nAng pagkain na nahulog sa lapag o sahig ay malinis parin kung ito ay hindi pa lumilipas ng limang segundo.</item>
+        <item>Paniniwala: \nPagsipsip ng dugo sa daliri na mayroon sugat ay makatutulong upang ang dugo ay makabalik sa katawan.</item>
+        <item>Paniniwala: \nPagtalon tuwing bagong taon ay makatutulong sa iyong pagtangkad.</item>
+        <item>Paniniwala: \nIkaw ay magkakaroon ng sakit, kung ikaw ay maliligo pagtapos mong mag ehersisyo.</item>
+        <item>Paniniwala: \nPag suklay ng iyong buhok sa gabi ay nag dudulot ng pagkalagas ng nito.</item>
+        <item>Paniniwala: \nAng kuliti ay sanhi ng pag boso sa isang babae o lalaki.</item>
+        <item>Paniniwala: \nAng pneumonia ay sanhi ng pagpapatuyo ng pawis sa iyong likod.</item>
+        <item>Paniniwala: \nAng tuob kung saan mag tatalukbong ka sa isang kumot o tela kamasa ang mainit na tubig o uling habang nagsasalita ng isang chant o healing matra.</item>
+        <item>Paniniwala: \nAng pagsipsip sa kagat ng ahas ay paraan upang matanggal ang lason nito.</item>
+        <item>Paniniwala: \nTumingala sa itaas kapag nakararanas ng pagdurugo ng ilong.</item>
+        <item>Paniniwala: \nPagpapahid ng mantikilya o toothpaste sa mga paso.</item>
+        <item>Paniniwala: \nAng pagpapahid ng alcohol sa katawan ay nakatutulong sa pagbaba ng lagnat.</item>
+        <item>Paniniwala: \nAng paglagay ng adhesive bandage sa sugat ay nakakapagpabilis sa paggaling.</item>
+        <item>Paniniwala: \nAng butil ng kape ay nakakapagpigil sa pagdurugo ng sugat.</item>
+    </string-array>
+</resources>

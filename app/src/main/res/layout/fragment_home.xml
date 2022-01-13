@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/homeFragment"
+    android:background="#FFFFFF"
     tools:context=".HomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
@@ -11,7 +13,7 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="fitXY"
         android:src="@drawable/ic_home_header"
@@ -24,21 +26,21 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_56sdp"
         android:fontFamily="@font/candal"
         android:text="AidPack"
         android:textColor="@color/white"
-        android:textSize="25dp"
+        android:textSize="@dimen/_20sdp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="22dp"
-        android:layout_height="22dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_marginStart="@dimen/_4sdp"
         android:src="@drawable/ic_logo_aidpack"
         app:layout_constraintBottom_toBottomOf="@+id/textView4"
         app:layout_constraintStart_toEndOf="@+id/textView4"
@@ -49,13 +51,13 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="124dp"
-        android:text="Reminder:"
+        android:layout_marginStart="@dimen/_26sdp"
+        android:layout_marginTop="@dimen/_85sdp"
+        android:text="@string/Homepage_reminder"
         android:textStyle="bold"
         android:textColor="@color/white"
         android:fontFamily="@font/convergence"
-        android:textSize="18sp"
+        android:textSize="@dimen/_14sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
@@ -63,11 +65,10 @@
         android:id="@+id/homePageRemindersTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="@dimen/_12sdp"
         android:fontFamily="@font/basic"
         android:gravity="start"
-        android:maxWidth="200dp"
-        android:text="Always, wash your hands  before eating your meal."
+        android:maxWidth="@dimen/_160sdp"
         android:textColor="@color/white"
         android:textStyle="normal"
         app:layout_constraintStart_toStartOf="@+id/textView5"
@@ -75,11 +76,11 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView2"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="56dp"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginStart="@dimen/_49sdp"
+        android:layout_marginTop="@dimen/_39sdp"
+        android:layout_marginEnd="@dimen/_51sdp"
         app:layout_constraintEnd_toStartOf="@+id/lottieAnimationView3"
         app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toEndOf="@+id/lottieAnimationView"
@@ -90,10 +91,10 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView3"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="44dp"
-        android:layout_marginEnd="32dp"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/_39sdp"
+        android:layout_marginEnd="@dimen/_27sdp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:lottie_autoPlay="true"
@@ -104,11 +105,11 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/_4sdp"
         android:fontFamily="@font/convergence"
         android:gravity="center"
-        android:maxWidth="100dp"
-        android:text="Avoid close contact"
+        android:maxWidth="@dimen/_70sdp"
+        android:text="@string/Homepage_avoid_close_contact"
         android:textColor="@color/black"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
@@ -119,11 +120,11 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/_4sdp"
         android:fontFamily="@font/convergence"
         android:gravity="center"
-        android:maxWidth="100dp"
-        android:text="Wear face mask"
+        android:maxWidth="@dimen/_70sdp"
+        android:text="@string/Homepage_wear_face_mask"
         android:textColor="@color/black"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView3"
@@ -132,10 +133,10 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnimationView"
-        android:layout_width="70dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="44dp"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginStart="@dimen/_27sdp"
+        android:layout_marginTop="@dimen/_39sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:lottie_autoPlay="true"
@@ -146,14 +147,13 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="@dimen/_4sdp"
         android:fontFamily="@font/convergence"
         android:gravity="center"
-        android:maxWidth="100dp"
-        android:text="Wash your hands"
+        android:maxWidth="@dimen/_70sdp"
+        android:text="@string/Homepage_wash_your_hands"
         android:textColor="@color/black"
         android:textStyle="normal"
-        app:layout_constraintBottom_toTopOf="@+id/btnEmergencyCall"
         app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView2"
         app:layout_constraintStart_toStartOf="@+id/lottieAnimationView2"
         app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
@@ -164,9 +164,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/candal"
-        android:text="Covid-19 Prevention"
+        android:text="@string/Homepage_covid_prevention"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="@dimen/_15sdp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -175,130 +175,119 @@
         app:layout_constraintVertical_bias="0.406" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/btnHomeSetting"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginTop="@dimen/_11sdp"
+        android:layout_marginEnd="@dimen/_11sdp"
+        android:clickable="true"
+        android:focusable="true"
         android:src="@drawable/ic_baseline_settings_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="28dp"
-        android:src="@drawable/emergency_icon"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="4dp"
-        android:fontFamily="@font/convergence"
-        android:text="Call 911"
-        android:textColor="@color/black"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="4dp"
-        android:maxWidth="250dp"
-        android:text="A national emergency telephone number in the philippines."
-        android:textColor="@color/black"
-        android:textSize="10sp"
-        android:textStyle="normal"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
-
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/blood"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.7">
 
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/convergence"
-        android:text="Donate Blood"
-        android:textColor="@color/black"
-        android:textSize="12sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:isScrollContainer="true"
+            android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textView15"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="4dp"
-        android:maxWidth="300dp"
-        android:text="A healthy individual may donate every three months."
-        android:textColor="@color/black"
-        android:textSize="10sp"
-        android:textStyle="normal"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+            <RelativeLayout
+                android:id="@+id/btnEmergencyCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:focusable="true">
 
-    <Button
-        android:id="@+id/btnEmergencyCall"
-        android:layout_width="335dp"
-        android:layout_height="51dp"
-        android:background="@color/transparent"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView7"
-        app:layout_constraintEnd_toEndOf="@+id/textView13"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView7"
-        app:layout_constraintTop_toTopOf="@+id/imageView7"
-        app:layout_constraintVertical_bias="1.0" />
+                <ImageView
+                    android:id="@+id/imageview7"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginStart="@dimen/_27sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/emergency_icon" />
 
-    <Button
-        android:id="@+id/btnDonateBlood"
-        android:layout_width="335dp"
-        android:layout_height="52dp"
-        android:background="@color/transparent"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView8"
-        app:layout_constraintEnd_toEndOf="@+id/textView14"
-        app:layout_constraintHorizontal_bias="0.014"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        app:layout_constraintTop_toTopOf="@+id/imageView8"
-        app:layout_constraintVertical_bias="0.0" />
+                <TextView
+                    android:id="@+id/textview12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_toEndOf="@+id/imageview7"
+                    android:fontFamily="@font/convergence"
+                    android:includeFontPadding="false"
+                    android:text="@string/Homepage_call_911"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal" />
 
-    
-    <Button
-        android:id="@+id/btnHomeSetting"
-        android:layout_width="26dp"
-        android:layout_height="27dp"
-        android:onClick="showPopup"
-        android:background="@color/transparent"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
-        app:layout_constraintEnd_toEndOf="@+id/imageView9"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageView9"
-        app:layout_constraintTop_toTopOf="@+id/imageView9" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview12"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_toEndOf="@id/imageview7"
+                    android:fontFamily="@font/basic"
+                    android:textColor="@color/black"
+                    android:includeFontPadding="false"
+                    android:maxWidth="@dimen/_200sdp"
+                    android:text="@string/Homepage_call_911_description"
+                    android:textSize="@dimen/_10sdp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/btnDonateBlood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <ImageView
+                    android:id="@+id/imageview8"
+                    android:layout_width="@dimen/_45sdp"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginStart="@dimen/_27sdp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/blood" />
+
+                <TextView
+                    android:id="@+id/textview13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_toEndOf="@+id/imageview8"
+                    android:fontFamily="@font/convergence"
+                    android:includeFontPadding="false"
+                    android:text="@string/Homepage_donate_blood"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                   />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textview13"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:layout_toEndOf="@id/imageview8"
+                    android:fontFamily="@font/basic"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/black"
+                    android:maxWidth="@dimen/_200sdp"
+                    android:text="@string/Homepage_donate_blood_description"
+                    android:textSize="@dimen/_10sdp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </ScrollView>
 
 
 
